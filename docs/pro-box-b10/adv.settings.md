@@ -371,4 +371,4 @@ Use this option to restart your EZCast Pro device.
 
 Use this option to get an overview of your EZCast Pro device e.g. firmware version, IP address as well as Wi-Fi related information.
 
-![](/assets/img/D10.about_stick.jpg)
+![](/assets/img/D10.about_device.png)
