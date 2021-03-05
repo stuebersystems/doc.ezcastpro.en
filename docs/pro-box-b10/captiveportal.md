@@ -10,7 +10,7 @@ Since a captive portal requires manual entry of credentials, EZCast Pro cannot l
 
 The MAC address of your EZCast Pro II device can be found in the `About Device` section of the [Advanced Settings](adv.settings.md):
 
-![MAC address in About Device](/assets/img/D10.About.MAC.jpg)
+![MAC address in About Device](/assets/img/D10.About.MAC.png)
 
 A MAC address is a better choice than using an IP address because the MAC address does not change. Please contact your IT department to allow the MAC address of the EZCast Pro device.
 
