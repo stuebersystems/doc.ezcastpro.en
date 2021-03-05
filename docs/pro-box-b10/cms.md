@@ -24,4 +24,4 @@ Profitieren Sie von den folgenden Möglichkeiten:
 	[Zum YouTube-Video][2]
 
   [1]: /assets/img/cms.video.png
-  [2]: https://youtu.be/Gr1HSE8Keso
+  [2]: https://youtu.be/01GDXfHvsv4
