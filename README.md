@@ -1,6 +1,8 @@
+[![Build Status](https://dev.azure.com/stuebersystems/Websites/_apis/build/status/docs/doc.ezcastpro.en?branchName=main)](https://dev.azure.com/stuebersystems/Websites/_build/latest?definitionId=133&branchName=main) ![Deployment Status](https://vsrm.dev.azure.com/stuebersystems/_apis/public/Release/badge/2cc87afa-9a3b-472b-8a3c-3eca48b22dd6/31/35)
+
 # EZCast Pro Documentation
 
-This is the English documentation for [EZCast Pro](https://ezcastpro.eu). The documentation is Open Source and we have implemented it using [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material). 
+This is the English documentation for [EZCast Pro](https://doc.ezcastpro.eu). The documentation is Open Source and we have implemented it using [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material). 
 
 ## Install MkDocs for Windows
 
