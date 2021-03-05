@@ -1,37 +1,37 @@
 # Touch-Back-Funktion
 
-Die Touch-Back-Funktion der EZCast Pro Box II erlaubt Ihnen Gesten mit bis zu 5-Fingern eines Multitouch-fähigen Bildschirms kabellos an einen Windows oder macOS Rechner zurückzusenden, wenn dort die EZCast Pro Software verwendet wird.
+The Touch Back feature of the EZCast Pro Box II allows you to wirelessly send Touch gestures with up to 5-fingers from a multi-touch capable screen to a Windows or macOS computer when using the EZCast Pro software.
 
-Wenn auf einen anderen Teilnehmer gewechselt wird, steht ihm auch die Touch-Back-Funktionalität zur Verfügung. Dies ermöglicht die Interaktivität und Kreativität von mehreren Teilnehmern an einem Bildschirm.
+When switching to another participant the Touch Back functionality then is then made available to them. This allows for interactivity and creativity from multiple participants on one screen.
 
-## Voraussetzungen
+## Requirements
 
-* Die Touch-Back-Funktion ist ab der Firmware-Version `1.8617.18` freigeschaltet.
+* Touch Back support is available from firmware version `1.8617.18` and above.
 
-* Die EZCast Pro [Software](quickstart.md#InstallSoftware) für Windows und macOS.
+* The EZCast Pro [software](quickstart.md#installsoftware) for Windows and macOS.
 
-* nur ein Bildschirm kann zeitgleich übertragen werden (kein aufgeteiltes Display möglich)
+* Touch Back is only supported when mirroring at a time (not possible with split screen).
 
-## Firmware-Version prüfen
+## Check Firmware Version
 
-* Schalten Sie die EZCast Pro Box II ein. Wenn die Landing Page erscheint, prüfen Sie, ob die erfolderliche Mindestversion `1.8617.18` angezeigt wird, wie unten abgebildet. Wenn nötig, aktualisieren Sie bitte Ihre [Firmware](firmware-upgrade).
+* The currently installed firmware version is displayed as shown below. Please check if the minimum version `1.8617.18` is installed. If necessary, please upgrade your [firmware](firmware-upgrade).
 
-![Touch-Back-Funktion wird ab der Firmware-Version 1.8617.18 freigeschaltet](/assets/img/ProIIBox_firmware.png)
+![Touch Back is supported from firmware version 1.8617.18](/assets/img/ProIIBox_firmware.png)
 
-## Einrichtung
+## How to Set Up Touch Back
 
-* Schließen Sie das USB-Kabel Ihres touchfähigen Bildschirms an den USB-Anschluss mit dem Kennzeichen "USB" des Empfängers an.
+* Connect the USB cable of your touch-enabled display to the USB port marked "USB" on back of the Pro Box II.
 
-![USB-Kabel anschließen](/assets/img/IMG_4504_M.png) 
+![Connect USB cable of Touch display](/assets/img/IMG_4504_M.png) 
 
-* Wenn der Empfänger die Touch-Funktionalität Ihres Bildschirms erfolgreich entdeckt hat, errecheint das Maus-Symbol oben rechts auf der Landing Page.
+* When the Pro Box has successfully detected the touch functionality of your screen, the mouse icon will appear at the top right of the landing page.
 
-![Die Touch-Back-Funktion ist aktiviert](/assets/img/B10_TouchBack_enabled.png)
+![Touch Back is activated](/assets/img/B10_TouchBack_enabled.png)
 
-* In der EZCast Pro Software wählen Sie einfach die Schaltfläche `Spiegeln`. Die Touch-Back-Funktion wird nach kurzer Zeit automatisch aktiviert
+* In the EZCast Pro software, simply select the `Mirror` button. The touch back function will be activated automatically after a short time
 
-![Die Schaltfläche Spiegeln wählen](/assets/img/App-Function1.png)
+![Select the Mirror button](/assets/img/App-Function1.png)
 
-* Die Touch-Gesten Ihres Displays werden an den Rechner zurückgesendet.
+* The touch gestures of your display are sent back to the computer.
 
-![Touch-Gesten werden an den Rechner zurückgesendet](/assets/img/B10_TouchBack_using.png)
+![Touch gestures are sent back to the computer](/assets/img/B10_TouchBack_using.png)
