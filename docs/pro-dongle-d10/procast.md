@@ -1,45 +1,44 @@
 # ProCast
 
-ProCast ist eine Übertragung vom einem Bildschirm auf mehrere Displays z.B. von einem Windows-PC bzw. macOS auf mehrere große Displays. Mit dem EZCast Pro Dongle II können Sie auf bis zu 8 Displays übertragen.
+ProCast is the free broadcasting software that enables you to mirror a Windows or macOS screen to up to 8 displays. An EZCast Pro II device must be connected to display.
 
 ![](/assets/img/procasting.png)
 
-!!! info "Wie funktioniert ProCast?"
+!!! info "Prefer a video tutorial?"
 
     [![EZCast Pro LAN Box Introduction Video][1]{: align=left }][2]
 	
-	Anleitung: Bildschirmübertragung auf mehrere Displays mit EZCast Pro und ProCast.
+	User Guide: How to mirror your screen to multiple displays with EZCast Pro II and ProCast.
 	
-	[Zum YouTube-Video][2]
+	[Watch YouTube Video][2]
 
   [1]: /assets/img/procast.video.png
-  [2]: https://youtu.be/ONVcowW-T-4
+  [2]: https://youtu.be/SMQmCjgScLo
 
+## Where is ProCast used?
 
-## Wo wird ProCast eingesetzt?
+* At music events and lectures to improve visibility.
 
-* Bei Musikveranstalltungen und Vorträgen, wo die Sichtbarkeit verbessert werden soll.
+* As a simple digital signage solution to distribute information and content to multiple monitors simultaneously.
 
-* Als einfache Digital Signage Lösung, um Informationen und Inhalte auf mehrere Monitore zeitgleich zu verteilen.
+## How to Set Up ProCast
 
-## So gehen Sie vor
+* [Connect](quickstart.md#ProDongleII_Setup) an EZCast Pro II device to each display you want to broadcast to.
 
-* [Schließen Sie](quickstart.md#Connect_ProIIDongle) einen EZCast Pro Dongle II an jedem Display an, auf das Sie übertragen möchten.
+* Make sure the computer you want to broadcast from and all EZCast Pro II devices are connected to the same [network](internet.md).
 
-* Der Computer von dem Sie übertragen, sowie alle EZCast Pro Dongle II müssen sich im gleichen Netzwerk befinden, indem Sie die Dongles mit Ihrem [Router](internet.md) verbinden.
+### Install the ProCast Software {#installsoftware}
 
-### Software installieren {#InstallSoftware}
+* Download and install the free ProCast Software for [Windows](https://ezcast-pro.com/download/procast-app/windows/) or [macOS](https://ezcast-pro.com/download/procast-app/macos/).
 
-* Laden Sie bitte die kostenlose Software für [Windows](https://ezcast-pro.com/download/procast-app/windows/) oder [macOS](https://ezcast-pro.com/download/procast-app/macos/) herunter und installieren Sie sie.
+### How to Use ProCast
 
-### Software bedienen
+* Do not open the EZCast Pro app and ProCast at the same time.
 
-* Öffnen Sie nicht die EZCast Pro App und ProCast gleichzeitig.
+* Launch the `ProCast` software from your Windows or macOS computer.
 
-* Rufen Sie die Software `ProCast` auf Ihrem PC oder macOS auf.
-
-* Wählen Sie die Displays aus, auf die Sie übertragen möchten. Wenn eine Übertragung auf alle Displays (bis zu 8 ist möglich) gewünscht ist, wählen Sie die Schaltfläche `Alle`, anschließend klicken Sie auf `Spiegeln`.
+* Select the displays you want to broadcast to. If you want to mirror to all displays (up to 8 is possible), select the `All` button from the toolbar, then click `Mirror`.
 
     ![](/assets/img/ProCast.png)
 
-* In der Symbolleiste finden Sie auch Schaltflächen zum Erweitern, Trennen sowie Ein- und Ausschalten des Tons.
+* You'll find additional buttons on the toolbar to mirror your screen as an extended desktop, stop mirroring and to turn on/off the sound.

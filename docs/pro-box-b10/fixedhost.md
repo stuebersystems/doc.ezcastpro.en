@@ -62,7 +62,7 @@ Enter the admin password and click `OK` to log in. The default password is `0000
 
 ![](/assets/img/prostickII_menu.restart.png)
 
-* Select the `Reboot`.
+* Select the `Reboot` button.
 
 ![](/assets/img/restart.png)
 
