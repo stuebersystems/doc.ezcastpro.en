@@ -30,7 +30,7 @@ The Fixed Host feature is available from Firmware version `1.4807.0` and above.
 
 You will find the Fixed Host function you will need to open [Admin Settings](#adminsettings) in the Advanced Settings.
 
-* While the desird Host is still using the EZCast Pro device, access the Advanced Settings, make sure you have installed the [Software](quickstart.md#InstallSoftware) and are connected to your EZCast Pro Dongle II.
+* While the desired Host is still using the EZCast Pro device, access the Advanced Settings, make sure you have installed the [Software](quickstart.md#InstallSoftware) and are connected to your EZCast Pro Dongle II.
 
 * Launch the 'EZCastPro' software on your device.
 
