@@ -14,7 +14,7 @@ When switching to another participant the Touch Back functionality then is then 
 
 ## Check Firmware Version
 
-* The currently installed firmware version is displayed as shown below. Please check if the minimum version `1.8617.18` is installed. If necessary, please upgrade your [firmware](firmware-upgrade).
+* The currently installed firmware version is displayed as shown below. Please check if the minimum version `1.8617.18` is installed. If necessary, please upgrade your [firmware](firmware-upgrade.md).
 
 ![Touch Back is supported from firmware version 1.8617.18](/assets/img/ProIIBox_firmware.png)
 
