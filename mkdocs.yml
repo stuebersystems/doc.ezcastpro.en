@@ -1,0 +1,145 @@
+# Project information
+site_name: EZCast Pro Documentation
+site_url: 'https://doc.ezcastpro.eu'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_description: >-
+    Our documentation for all EZCast Pro products. 
+
+# Repository
+repo_name: 'On GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.ezcastpro.en'
+
+# Copyright
+copyright: '&copy; 2021 STÜBER SYSTEMS GmbH'
+
+# Configuration
+theme:
+    name: material
+    custom_dir: overrides
+    static_templates:
+        - 404.html
+    include_search_page: false
+    search_index_only: true
+    language: en
+    features:
+        - navigation.tabs
+        - navigation.instant
+    palette:
+        scheme: default
+    favicon: assets/img/favicon.ico
+    logo: assets/img/logo.svg
+    font: false
+
+# Legal links
+extra:
+    legal:
+        - label: Imprint
+          link: https://www.stueber.co.uk/imprint.php
+        - label: Privacy
+          link: https://legal.stueber.co.uk/privacy.php
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+
+# Plugins
+plugins:
+    - search
+    - minify:
+        minify_html: true
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.abbr
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+
+# Page tree
+nav:
+- Overview: 
+    - Introduction: index.md
+    - What's New?: whatsnew.md
+    - Ports: ports.md
+    - Data Security: datasecurity.md
+    - Update Firmware: firmware-upgrade.md
+- Pro Dongle II: 
+    - Introduction: pro-dongle-d10/intro.md
+    - Quick Start Guide: pro-dongle-d10/quickstart.md
+    - What's New?: pro-dongle-d10/whatsnew.md
+    - Setup Guide: pro-dongle-d10/optimize.md
+    - User Guides by Device Type: 
+        - "User Guide: AirPlay": pro-dongle-d10/airplay.md
+        - "User Guide: Chromecast": pro-dongle-d10/chromecast.md
+        - "User Guide: Miracast": pro-dongle-d10/miracast.md
+    - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
+    - Internet Access: pro-dongle-d10/internet.md
+    - Advanced Features: 
+        - Advanced Settings: pro-dongle-d10/adv.settings.md
+        - Fixed Host: pro-dongle-d10/fixedhost.md
+        - ProCast: pro-dongle-d10/procast.md
+        - Captive Portal: pro-dongle-d10/captiveportal.md
+    - Update Firmware: pro-dongle-d10/firmware-upgrade.md
+    - Troubleshooting: 
+        - Reset Settings: pro-dongle-d10/reset.md
+        - Reinstall Firmware: pro-dongle-d10/firmware-reinstall.md
+    - CMS: pro-dongle-d10/cms.md 
+- Pro Box II: 
+    - Introduction: pro-box-b10/intro.md
+    - Quick Start Guide: pro-box-b10/quickstart.md
+    - What's New?: pro-box-b10/whatsnew.md
+    - Setup Guide: pro-box-b10/optimize.md
+    - User Guides by Device Type: 
+        - "User Guide: AirPlay": pro-box-b10/airplay.md
+        - "User Guide: Chromecast": pro-box-b10/chromecast.md
+        - "User Guide: Miracast": pro-box-b10/miracast.md
+    - EZCastPro App/Software: pro-box-b10/ezcastproapp.md
+    - Internet Access: pro-box-b10/internet.md
+    - Advanced Features:
+        - Advanced Settings: pro-box-b10/adv.settings.md
+        - Fixed Host: pro-box-b10/fixedhost.md
+        - ProCast: pro-box-b10/procast.md
+        - Touch Back: pro-box-b10/touchback.md
+        - Captive Portal: pro-box-b10/captiveportal.md
+    - Update Firmware: pro-box-b10/firmware-upgrade.md  
+    - Troubleshooting: 
+        - Reset Settings: pro-box-b10/reset.md
+        - Reinstall Firmware: pro-box-b10/firmware-reinstall.md  
+    - CMS: pro-box-b10/cms.md 
+- Older Models: 
+    - Introduction: legacymodels.md
+    - Pro Stick I: 
+        - Introduction: pro-dongle-d01/intro.md
+        - Quick Start Guide: pro-dongle-d01/quickstart.md
+        - "User Guide: AirPlay": pro-dongle-d01/airplay.md
+        - "User Guide: Miracast": pro-dongle-d01/miracast.md
+        - Internet Access: pro-dongle-d01/internet.md
+        - Advanced Settings: pro-dongle-d01/adv.settings.md
+        - Reset Settings: pro-dongle-d01/reset.md
+    - Pro LAN Box: 
+        - Introduction: lan-box-b01/intro.md
+        - Quick Start Guide: lan-box-b01/quickstart.md
+        - "User Guide: AirPlay": lan-box-b01/airplay.md
+        - "User Guide: Miracast": lan-box-b01/miracast.md
+        - Internet Access: lan-box-b01/internet.md
+        - Advanced Settings: lan-box-b01/adv.settings.md
+        - Reset Settings: lan-box-b01/reset.md

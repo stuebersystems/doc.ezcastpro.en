@@ -1,0 +1,17 @@
+# Workflow to mirror this repo to Azur DevOps
+
+name: Mirroring
+
+on: [push, delete]
+
+jobs:
+  to_azuredevops:
+    runs-on: ubuntu-18.04
+    steps:                                             
+    - uses: actions/checkout@v1
+    - uses: pixta-dev/repository-mirroring-action@v1
+      with:
+        target_repo_url:
+          git@ssh.dev.azure.com:v3/stuebersystems/Wireless%20Presentation/doc.ezcastpro.en
+        ssh_private_key:
+          ${{ secrets.AZUREDEVOPSSSHPRIVATEKEY }}
