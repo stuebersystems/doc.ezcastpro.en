@@ -36,7 +36,7 @@ Mit Hilfe der `Erweiterte Einstellungen` können Sie sich anmelden und die Stand
 
 * Aus dem Menü oben links wählen Sie `Admin-Einstellungen`.
 
-![](/assets/img/ezcastpro.II.select.admineinstellungen.png)
+![](/assets/img/ezcastpro.II.select.adminsettings.png)
 
 * Wählen den Punkt `Auf Standardeinstellungen zurücksetzen` aus.
 

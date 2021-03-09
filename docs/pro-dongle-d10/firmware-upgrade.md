@@ -1,61 +1,63 @@
-# Firmware aktualisieren
+# Upgrade Firmware
 
-## Warum? 
+## Why Update the Firmware? 
 
-Um von den neusten Funktionen des EZCast Pro Dongle II zu profitieren, können Sie das neuste Firmware-Update schnell und bequem über das Internet installieren. Bei der Installation einer neuen Firmware werden die bisherigen Einstellungen mitgenommen. Dabei benötigen Sie einen Zugang zum Internet mit dem Internet bzw. mit Ihrem Router. Dies wird mit dem WLAN-Symbol oben rechts und eine vergebene IP-Adresse Ihres Routers unten links auf der Landing Page anzeigt, wie unten abgebildet:
+To benefit from the latest features of EZCast Pro Dongle II, you can quickly and conveniently install the latest firmware update via the Internet. When upgrading the firmware the previous settings are retained. To do this, the EZCast Pro device must have access to the internet which is indicated by a Wi-Fi icon at the top right of the landing page and an `Infrustructure IP` address on the bottom left, as shown below:
 
-Wenn Ihr EZCast Pro Dongle II nicht mit dem Internet verbunden ist, [klicken Sie bitte hier](internet.md) und folgen Sie der entsprechenden Anleitung.
+![](/assets/img/ProII_fw.upgrade.available.png)
 
-![](/assets/img/ProDongleII_connected_to_router.png)
+If your EZCast Pro device is not connected to the internet [click here](internet.md) and follow the user guide.
 
-## Erweiterte Einstellungen
+## How to Upgrade Firmware
 
-Das Updaten der Firmware kann per die `Erweiterte Einstellungen` eines beliebigen End-Geräts durchgeführt werden. In diesem Beispiel zeigen wir Ihnen, wie das Upgrade von einem Windows-PC vorgenommen wird.
+### Open Advanced Settings
 
-*   Um die Erweiterte Einstellungen zu erreichen, stellen Sie sicher, dass Sie die [Software](quickstart.md#InstallSoftware) installiert haben und mit Ihrem EZCast Pro Dongle II verbunden sind.
+To update the firmware you will need to open `Advanced Settings`. In this example, we show you how to access Advanced Settings via the EZCast Pro software:
 
-*   Rufen Sie die Software `EZCastPro`auf Ihrem Gerät auf.
+* Install the EZCast Pro [Software](quickstart.md#InstallSoftware) and are connected to your EZCast Pro Dongle II.
 
-*   Wählen Sie `Erweiterte Einstellungen` unten links.
+* Launch the `EZCastPro` software on your device.
+
+* Select `Advanced Settings` at the bottom left.
 
     ![](/assets/img/ProII-Win-App-Advanced-Settings.png)
 
-## Anmeldung
+### Log In as Admin
 
-*   Geben Sie das Admin-Kennwort ein und klicken Sie auf `OK`, um sich anzumelden. Standardmäßig lautet das Kennwort `000000`. Wenn dieses Kennwort nicht akzeptiert wird setzen Sie das Gerät per [Reset-Schalter](reset.md#zurücksetzen-per-reset-schalter) zurück.
+* Enter the Admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](#reset-per-switch).
 
-    ![](/assets/img/EZCastII_Login.png)
+	![](/assets/img/EZCastII_Login.png)
 
-*   Während der ersten Anmeldung, müssen Sie das Admin-Kennwort ändern. Danach müssen Sie sich noch einmal anmelden.
+### Begin Firmware Upgrade
 
-    ![](/assets/img/new_password.png)
+* Select `Admin Settings` from the main menu:
 
-## Firmware-Upgrade ausführen
+![](/assets/img/ezcastpro.II.select.adminsettings.png)
 
-*   Aus dem Menü wählen Sie die `Admineinstellungen` aus:
+*   If a new firmware version is available, it is indicated with `New version available!` next to the menu item `Upgrade`. To continue, select this button:
 
-    ![](/assets/img/ezcastpro.II.select.admineinstellungen.png)
+    ![](/assets/img/ProII_Firmware-Menuoption.png)
 
-*   Wenn eine neue Firmware-Version zur Verfügung steht, wird es mit `Neue Version!` neben dem Menüpunkt `Aktualisierung` angezeigt. Um fortzusetzen wählen Sie diese Schaltfläche aus:
+*   The new firmware version is displayed in the `Server Version` field. To continue, click on `Upgrade`.
 
-    ![](/assets/img/ProIIDongle_Landing Page_Firmware-Menuoption.png)
+    ![](/assets/img/ProIIStick_Start.Upgrade.png)
 
-*   Die neue Firmware-Version wird im Feld Server-Version angezeigt. Zum bestätigen wählen Sie `Aktualisierung`.
+The new firmware is downloaded and installed automatically. 
 
-    ![](/assets/img/ProIIDongle_Start.Upgrade.jpg)
-
-Die neue Firmware wird heruntergeladen und automatisch installiert. 
-
-!!! warning "Achtung"
+!!! warning "Warning"
     
-	Unterbrechen Sie während des Updates nicht die Stromversorgung.
+	Do not interrupt the power supply during the update.
 
-![](/assets/img/ProIIDongle_Firmware_installing.jpg)
+![](/assets/img/ProII_Firmware_installing.png)
 
-Nach dem Neustart wird die aktuelle Version der Firmware unten rechts auf der Landing Page angezeigt:
+The EZCast Pro device restarts automatically and returns to the landing page. The updated firmware version is displayed on the bottom right:
 
-![](/assets/img/ProIIDongle_Firmware-Version.jpg)
+![](/assets/img/ProIIDongle_firmware.png)
 
-## Einstellungen nach der Firmware-Aktualiserung {#recommendedsettings}
+## Recommended Settings After Firmware Update {#recommendedsettings}
 
-Nach einer Firmware-Aktualiserung stehen neue Funktionen zur Verfügung. Unsere empfohlene Einstellungen [finden Sie hier](reset.md#recommendedsettings).
+After updating the firmware please review all available. Our recommended settings [can be found here](reset.md#recommendedsettings).
+
+!!! tip "Tip"
+    
+	If you are viewing Advanced Settings in a web browser instead of the EZCast Pro app please clear your browser cache after upgrading firmware in order to see all newly available options.

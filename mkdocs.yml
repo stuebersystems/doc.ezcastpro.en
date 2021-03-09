@@ -81,7 +81,7 @@ nav:
     - What's New?: whatsnew.md
     - Ports: ports.md
     - Data Security: datasecurity.md
-    - Update Firmware: firmware-upgrade.md
+    - Upgrade Firmware: firmware-upgrade.md
 - Pro Dongle II: 
     - Introduction: pro-dongle-d10/intro.md
     - Quick Start Guide: pro-dongle-d10/quickstart.md
@@ -98,7 +98,7 @@ nav:
         - Fixed Host: pro-dongle-d10/fixedhost.md
         - ProCast: pro-dongle-d10/procast.md
         - Captive Portal: pro-dongle-d10/captiveportal.md
-    - Update Firmware: pro-dongle-d10/firmware-upgrade.md
+    - Upgrade Firmware: pro-dongle-d10/firmware-upgrade.md
     - Troubleshooting: 
         - Reset Settings: pro-dongle-d10/reset.md
         - Reinstall Firmware: pro-dongle-d10/firmware-reinstall.md
@@ -120,7 +120,7 @@ nav:
         - ProCast: pro-box-b10/procast.md
         - Touch Back: pro-box-b10/touchback.md
         - Captive Portal: pro-box-b10/captiveportal.md
-    - Update Firmware: pro-box-b10/firmware-upgrade.md  
+    - Upgrade Firmware: pro-box-b10/firmware-upgrade.md  
     - Troubleshooting: 
         - Reset Settings: pro-box-b10/reset.md
         - Reinstall Firmware: pro-box-b10/firmware-reinstall.md  
