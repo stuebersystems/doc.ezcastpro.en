@@ -59,7 +59,7 @@ If you do not know the Admin password, you must perform a hard-reset using the r
 
 The first time you log in after resetting the device you will be asked to change the Admin password. The default password is `000000`. For optimal device performance we then recommend the following device settings:
 
-Firmware Version: 1.9871.34
+Firmware Version: [1.9871.34](whatsnew.md#ezcast-pro-dongle-ii-firmware-1987134)
 
 **Device Management**
 

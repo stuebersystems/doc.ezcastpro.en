@@ -6,6 +6,29 @@ This chapter all the latest changes to the EZCast Pro Box II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
+
+## EZCast Pro Box II Firmware - 1.9871.37
+
+**Fixes:**
+
+* System bugs fixed
+
+## EZCast Pro Box II Firmware - 1.9871.34
+
+**New Functions:**
+
+* Support Central Management System ([CMS](cms.md))
+* Support Wi-Fi Channel setting for [Legacy Wi-Fi mode](adv.settings.md#legacymode)
+
+**Fixes:**
+
+* ImWeb setting Improvement
+* Set [Android audio streaming](adv.settings.md#android-audio-streaming) `ON` as default
+* Optimized energy consumption
+* Improved Web access security
+* Updated UI for "Music" and "Video" when using EZCast Pro App
+* Bugs fixed
+
 ## EZCast Pro Box II Firmware - 1.8617.21
 
 **Fixes:**
