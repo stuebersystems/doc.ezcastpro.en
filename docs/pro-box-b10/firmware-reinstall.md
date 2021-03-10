@@ -16,9 +16,9 @@ There are two options: Install the latest firmware or select a specific firmware
 
 * A Windows computer to load the firmware software onto the EZCast Pro Dongle II.
 
-* The included USB Type C cable.
+* EZCast Pro Box II must be connected to the Windows computer via [USB Type A Male to Male cable](https://www.amazon.co.uk/Rankie-Type-Male-Cable-Black/dp/B01KRO8D20/ref=sr_1_5?dchild=1&keywords=USB+3.0+Cable+A%2FA&qid=1615341940&sr=8-5).
 
-![Included USB Type C charger cable](/assets/img/USB-TypeC-Cable.png)
+![USB Cable-Cable AA ](/assets/img/USB-Kabel-AA.jpg)
 
 ## Install EZCast Pro Repair Tool
 
