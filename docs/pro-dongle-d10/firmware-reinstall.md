@@ -46,7 +46,7 @@ There are two options: Install the latest firmware or select a specific firmware
 
 If the driver is installed and the EZCast Pro Dongle II is properly connected, a **„Realtek generic USB Device“** driver will appear in Device Manager. If not, please check the driver installation, cable configuration and reinstall mode, as described in the previous step.
 
-![EZCastPro driver in Device Manager](/assets/img/EZCastPro_Driver.jpg)
+![EZCastPro driver in Device Manager](/assets/img/EZCastPro_Driver.png)
 
 ## Install Latest Firmware
 
@@ -102,7 +102,7 @@ The following window will appear. If the EZCast Pro Dongle II is correctly in re
 
 * Select the desired firmware using the `Firmware` button.
 
-![Select Firmware](/assets/img/EZCastUpdate.SelectFirmware.jpg)
+![Select Firmware](/assets/img/EZCastUpdate.SelectFirmware.png)
 
 * To start the firmware installation select `Upgrade`.
 
