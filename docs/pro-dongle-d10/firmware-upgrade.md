@@ -14,7 +14,7 @@ If your EZCast Pro device is not connected to the internet [click here](internet
 
 To update the firmware you will need to open `Advanced Settings`. In this example, we show you how to access Advanced Settings via the EZCast Pro software:
 
-* Install the EZCast Pro [Software](quickstart.md#InstallSoftware) and are connected to your EZCast Pro Dongle II.
+* Install the EZCast Pro [Software](quickstart.md#InstallSoftware) and connect to your EZCast Pro Dongle II.
 
 * Launch the `EZCastPro` software on your device.
 
@@ -24,7 +24,7 @@ To update the firmware you will need to open `Advanced Settings`. In this exampl
 
 ### Log In as Admin
 
-* Enter the Admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](#reset-per-switch).
+* Enter the Admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](reset.md#hardreset).
 
 	![](/assets/img/EZCastII_Login.png)
 
@@ -56,7 +56,7 @@ The EZCast Pro device restarts automatically and returns to the landing page. Th
 
 ## Recommended Settings After Firmware Update {#recommendedsettings}
 
-After updating the firmware please review all available. Our recommended settings [can be found here](reset.md#recommendedsettings).
+After updating the firmware please review all available Advanced Settings. See our recommended settings [here](reset.md#recommendedsettings).
 
 !!! tip "Tip"
     

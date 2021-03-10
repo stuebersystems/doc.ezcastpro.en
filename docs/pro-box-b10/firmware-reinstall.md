@@ -1,134 +1,124 @@
-# Firmware neu installieren
+# Reinstall Firmware
 
-Sie können die EZCast Pro Box II wiederherstellen, indem Sie die Firmware neu installieren. Es gibt mehrere Gründe dafür:
+You can restore EZCast Pro Dongle II by reinstalling the firmware. There are multiple reasons for doing this:
 
-* Die EZCast Pro Box II lässt sich nicht einschalten. Die Stromversorgung wurde bereits kontrolliert. In diesem Fall kann es an einem unterbrochenen [Aktualisierungs-Vorgang](firmware-upgrade.md) liegen.
+* EZCast Pro Dongle II does not power on and the power supply has already been checked. This could be due to an interrupted [firmware upgrade](firmware-upgrade.md).
 
-* Die EZCast Pro Box II läuft nicht stabil und ein [Reset](reset.md) hat nicht geholfen.
+* EZCast Pro Dongle II is running unstable. Performing a [device reset](reset.md) did not help.
 
-* Sie haben die Wahl: Installieren Sie entweder einfach die neuste Firmware oder eine andere Firmware.
+There are two options: Install the latest firmware or select a specific firmware.
 
-!!! warning "Achtung"
+!!! warning "Warning"
+    
+	When you reinstall the firmware **all** existing settings will be lost.
 
-    Bei einer Neuinstallation der Firmware werden **alle** Einstellungen zurückgesetzt.
+## Requirements
 
-## Voraussetzung
+* A Windows computer to load the firmware software onto the EZCast Pro Dongle II.
 
-* Sie benötigen einen Windows Computer, um die Firmware-Software auf der EZCast Pro Box II einzuspielen.
+* The included USB Type C cable.
 
-* Die EZCast Pro Box II muss mit Ihrem Windows-PC per [USB Kabel (A/A)](https://www.amazon.de/deleyCON-Super-Speed-Kabel-Stecker/dp/B00WHZ746E/ref=sr_1_3?ie=UTF8&qid=1531928442&sr=8-3&keywords=usb+kabel+male+to+male) angeschlossen werden.
+![Included USB Type C charger cable](/assets/img/USB-TypeC-Cable.png)
 
-![USB Kabel-Kabel AA ](/assets/img/USB-Kabel-AA.jpg)
+## Install EZCast Pro Repair Tool
 
-## EZCast Pro Repair Tool installieren
+* Download [EZCast Pro Dongle II (B10) Repair Tool](https://download.stueber.de/doc/de/ezcastpro/repair_tools/EZCastPro.B10.Repair.Tool.zip).
 
-* Laden Sie das [EZCast Pro Box II (B10) Repair Tool](https://download.stueber.de/doc/de/ezcastpro/repair_tools/EZCastPro.B10.Repair.Tool.zip) herunter.
+* Extract the **EZCastPro.B10.Repair.Tool.zip** file.
 
-* Extrahieren Sie die Datei **EZCastPro.B10.Repair.Tool.zip**.
+![Extract EZCastPro.B10.Repair.Tool.zip](/assets/img/B10.Repair_Tool_Extract.png) 
 
-![EZCastPro.B10.Repair.Tool.zip extrahieren](/assets/img/EZCastPro_Repair_Tool_Extract.jpg) 
+* Install the driver by running the batch file `EZCastPro.B10.Repair.Tool\usb_driver\install.bat` as Administrator.
 
-* Installieren Sie die Treiber, indem Sie die Batchdatei `EZCast_Pro_Repair_Tool\usb_driver\install.bat` als Administrator ausführen.
+![Run install.bat as Administrator](/assets/img/B10.install.bat.png)
 
-![install.bat als Administrator ausführen](/assets/img/EZCastPro_Upgrade_Tool_Run.As.Administrator.jpg)
+* When the following security message appears select **„Install“**:
 
-* Wenn die folgende Sicherheitsmeldung erscheint, wählen Sie **„Installieren“**:
+![Select Install](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.jpg)
 
-![Wählen Sie Installieren](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.jpg)
+## Connect USB Type C cable
 
+* Connect the included USB Type C cable to the USB port of the dongle. The dongle remains powered off at this stage.
 
-## USB Type A Kabel anschließen
+* To put the EZCast Pro Dongle II in reinstall mode press and **hold** the reset button on the side of the dongle. Then connect the USB Type C cable to your Windows PC. After five seconds release the reset button.
 
-!!! warning "Achtung"
+![EZCast Pro Dongle II in reinstall mode](/assets/img/ProII-Press-Reset-Button.jpg)
 
-    Anfangs ist das USB Type A Kabel **nur** mit dem USB-Anschluss der Box angeschlossen. Die Box ist ausgeschaltet. Das andere Ende des Kabels schließen Sie **nachher** mit Ihrem PC an.
+If the driver is installed and the EZCast Pro Dongle II is properly connected, a **„Realtek generic USB Device“** driver will appear in Device Manager. If not, please check the driver installation, cable configuration and reinstall mode, as described in the previous step.
 
-* Um die EZCast Pro Box II in den Update-Modus zu setzen, schalten Sie das Gerät per die Power-Taste aus. Mit Hilfe eines kleinen "Stifts" halten Sie den Reset-Schalter gedrückt. Schalten Sie das Gerät per die Power-Taste ein, anschließend können Sie den Reset-Schalter loslassen.
+![EZCastPro driver in Device Manager](/assets/img/EZCastPro_Driver.png)
 
-![EZCast Pro Box II in den Update-Modus setzen](/assets/img/Press-Reset-Button_B10.png)
+## Install Latest Firmware
 
-* Schließen Sie nun das [USB Kabel (A/A)](https://www.amazon.de/deleyCON-Super-Speed-Kabel-Stecker/dp/B00WHZ746E/ref=sr_1_3?ie=UTF8&qid=1531928442&sr=8-3&keywords=usb+kabel+male+to+male) an den USB-Port der Box und an einen USB-Port Ihres Rechners unter Microsoft Windows an.
+* Launch the **EZCastUpdate.exe** file in the `EZCastPro.B10.Repair.Tool` directory.
 
-![Empfänger mit Ihrem PC per USB-Kabel (A/A) anschließen](/assets/img/IMG_4504_M.png)
+![Launch EZCastUpdate.exe](/assets/img/B10.Repair_Tool_Update.exe.png)
 
-Wenn der Treiber richtig installiert ist und die EZCast Pro Box II angeschlossen ist, sollte das Gerät **„Realtek generic USB Device“** im Geräte-Manager erscheinen. Wenn nicht, überprüfen Sie die Treiber-Installation, Kabel-Konfiguration, und den Update-Modus, wie im vorherigen Schritt beschrieben.
+The following window will appear. If the EZCast Pro Dongle II is in reinstall mode „EZCast device connected“ will display in the tool.
 
-![EZCastPro Treiber im Geräte-Manager](/assets/img/EZCastPro_Driver.jpg)
+* Select `Download` in order to download the latest firmware.
 
-## Neuste Firmware installieren
+![Select the Download button](/assets/img/EZCastUpdate.DeviceConnected.jpg)
 
-* Im Ordner `EZCast_Pro_Repair_Tool` führen Sie die Datei **EZCastUpdate.exe** aus.
+The latest firmware will download from the internet.
 
-![EZCastUpdate.exe ausführen](/assets/img/EZCastPro_Repair_Tool_EZCastUpdate.exe.jpg)
+!!! warning "Warning"
 
-Das folgende Fenster erscheint. Wenn die EZCast Pro Box II im Update-Modus ist, wird im Tool „EZCast device connected“ angezeigt.
+    You must not disconnect the power while the firmware is installing.
 
-* Wählen Sie `Download`, um die neuste Firmware herunterzuladen.
+![EZCastPro Firmware is downloading](/assets/img/EZCastUpdate.Firmware.Downloading.jpg)
 
-![Die Schaltfläche Download wählen](/assets/img/EZCastUpdate.DeviceConnected.jpg)
+* To start the installation select `Upgrade`.
 
-Das Downloaden der Firmware wird durchgeführt.
+![Select Upgrade to start the installation](/assets/img/EZCastUpdate.Upgrade.jpg)
 
-!!! warning "Achtung"
+The firmware is installed.
 
-    Sie dürfen den Strom während der Aktualisierung nicht unterbrechen.
+![The firmware is installed](/assets/img/EZCastUpdate.Firmware.Updating.jpg)
 
-![EZCastPro Firmware wird heruntergefahren](/assets/img/EZCastUpdate.Firmware.Downloading.jpg)
+If the installation has been succesfully installed the following message will appear:
 
-* Um die Installation der Firmware zu starten, wählen Sie `Upgrade`.
+![The installation was successful](/assets/img/EZCastUpdate_Upgrade.Success.jpg)
 
-![Wählen Sie Upgrade, um die Installation zu starten](/assets/img/EZCastUpdate.Upgrade.jpg)
+The EZCast Pro Dongle II is ready to use again.
 
-Die Firmware wird installiert.
+## Install Specific Firmware
 
-![Die Firmware wird installiert](/assets/img/EZCastUpdate.Firmware.Updating.jpg)
+To install a previous or a beta firmware download one of the following files:
 
-Wenn die Installation erfolgreich durchgeführt wurde, erscheint die folgende Meldung:
-
-![Die Installation war erfolgreich](/assets/img/EZCastUpdate_Upgrade.Success.jpg)
-
-Die EZCast Pro Box II ist wieder einsatzbereit.
-
-## Andere Firmware installieren
-
-Um eine vorherige bzw. eine Betafirmware zu installieren, laden Sie eine der folgenden Dateien herunter:
-
-Firmware                       | Herunterladen
+Firmware                       | Download
 ------------------------- | ------------
-1.9871.38 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.38.gz)
-1.9871.34 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.34.gz)
-1.8617.21 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.8617.21.gz)
-1.7545.8 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.7545.8.gz)
+1.9871.38 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.38.gz)
+1.9871.37 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.37.gz)
+1.8617.21 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.8617.21.gz)
+1.7545.8 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.7545.8.gz)
 
-* Im Ordner `EZCast_Pro_Repair_Tool` führen Sie die Datei **Update_for_localfile.exe** aus.
 
-![Update_for_localfile.exe ausführen](/assets/img/EZCastPro_Repair_Tool_Update_for_localfile.exe.jpg)
+* Launch the **Update_for_localfile.exe** file in the `EZCastPro.B10.Repair.Tool` directory.
 
-Das folgende Fenster erscheint. Wenn die EZCast Pro Box II im Update-Modus ist, wird im Tool „EZCast device connected“ angezeigt.
+![Launch Update_for_localfile.exe](/assets/img/B10.localfile.exe.png)
 
-* Mit Hilfe der Schaltfläche `Firmware` wählen Sie die gewünschte Firmwaredatei aus.
+The following window will appear. If the EZCast Pro Dongle II is correctly in reinstall mode **"Device connected"** will be displayed in the tool.
 
-![Firmware auswählen](/assets/img/EZCastUpdate.SelectFirmware.jpg)
+* Select the desired firmware using the `Firmware` button.
 
-* Um die Installation der Firmware zu starten, wählen Sie `Upgrade`.
+![Select Firmware](/assets/img/EZCastUpdate.SelectFirmware.png)
 
-![Wählen Sie Upgrade, um die Installation zu starten](/assets/img/EZCastUpdate.Upgrade.jpg)
+* To start the firmware installation select `Upgrade`.
 
-Die Firmware wird installiert.
+![Select Upgrade to start the installation](/assets/img/EZCastUpdate.Upgrade.jpg)
 
-![Die Firmware wird installiert](/assets/img/EZCastUpdate.Firmware.localfile.Updating.jpg)
+The firmware installs.
 
-Wenn die Installation erfolgreich durchgeführt wurde, erscheint die folgende Meldung:
+![Firmware is installing](/assets/img/EZCastUpdate.Firmware.localfile.Updating.jpg)
 
-![Die Installation war erfolgreich](/assets/img/EZCastUpdate_localfile.Upgrade.Success.jpg)
+After the installation has been succesfully installed the following message will appear:
 
-Die EZCast Pro Box II ist wieder einsatzbereit.
+![The installation was successful](/assets/img/EZCastUpdate_localfile.Upgrade.Success.jpg)
 
-!!! warning "Achtung"
+The EZCast Pro Dongle II is ready to use again.
 
-    Bei einer Neuinstallation der Firmware werden die fabrikseitigen Einstellungen des Geräts wiederhergestellt. Bitte prüfen Sie nach der Neuinstallation unsere [empfohlene Einstellungen](reset.md#recommendedsettings).
+## Recommended Settings after Device Reset {#recommendedsettings}
 
-## Einstellungen nach der Neuinstallation {#recommendedsettings}
-
-Bei einer Neuinstallation der Firmware werden alle Einstellungen zurückgesetzt. Unsere empfohlene Einstellungen finden Sie [hier](reset.md#recommendedsettings).
+During a firmware reinstall all default factory settings are restored. After completion please review our [recommended settings](reset.md#recommendedsettings).
 

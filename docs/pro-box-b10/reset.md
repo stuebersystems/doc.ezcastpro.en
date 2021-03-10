@@ -1,85 +1,86 @@
-# Einstellungen zurücksetzen
+# Why reset your EZCast Pro device?
 
-Es gibt mehrere Gründe für einen Zurücksetzen (Reset) der EZCast Pro Box II auf seine Werkseinstellungen:
+There are a few reasons you may wish to reset your EZCast Pro Box II to default settings:
 
-* Sie haben das Admin-Kennwort für die [Erweiterte Einstellungen](adv.settings.md) vergessen.
+* You have forgotten the Admin password for the [Advanced Settings](adv.settings.md).
 
-* Sie haben Änderungen in Ihrer Netzwerkinfrastruktur, den IP-Einstellungen oder den SSID-Zugangsdaten der Box vorgenommen und Ihre Box ist nicht mehr erreichbar.
+* The box is no longer accessible since making changes to your network infrastructure, IP settings or to the SSID credentials of the box.
 
-* Sie haben Probleme eine ungewollte Änderung auf der Box rückgängig zu machen.
+* The box is experiencing other performance difficulties.
 
-Bei einem Zurücksetzen werden alle Einstellungen zurückgesetzt, außer die [WLAN-SSID](adv.settings.md#Geraetename), das [Hintergrundbild](adv.settings.md#Mein-Bildschirm) der  Landing Page, und die Firmware-Version.
+All settings will be reset except the [Device/SSID Name](adv.settings.md#devicessid-name), the [customized landing page](adv.settings.md#myscreen) image and the firmware version.
 
-## Zurücksetzen per App bzw. Software
+## Soft-Reset via App/Software {#softreset}
 
-Mit Hilfe der `Erweiterte Einstellungen` können Sie sich anmelden und die Standardeinstellungen zurücksetzen. Um die `Erweiterte Einstellungen` zu erreichen, stellen Sie sicher, dass Sie die [App](quickstart.md#InstallApp) installiert haben und dass Sie mit Ihrer EZCast Pro II Box [verbunden](quickstart.md#app-mit-ezcast-pro-ii-dongle-verbinden) sind.
+To reset the EZCast Pro Box II open the `EZCastPro` app or software on your enddevice. See our compehensive guide to installing the software for [Windows and macOS](quickstart.md#InstallSoftware) or the app for [Android and iOS](quickstart.md#InstallApp) should you need to install it.
 
-* Rufen Sie die App bzw. die Software `EZCastPro` auf Ihrem Gerät auf und wählen Sie die Pro II Box aus der Geräteliste aus.
+Open `Advanced Settings` on your device. For Windows/macOS users it is located at the bottom of the left panel:
 
-* Auf Windows/macOS wählen Sie `Erweiterte Einstellungen`.
+![](/assets/img/ProII-Win-App-Advanced-Settings.png)
 
-![](/assets/img/Win-App-Advanced-Settings.png)
-
-* Auf iOS/Android wählen Sie die Schaltfläche `Settings` oben links.
-
-![](/assets/img/iOS_settings.png)
-
-* Auf iOS/Android wählen Sie anschließend `Advanced Settings` bzw. `Erweiterte Einstellungen`.
+On iOS/Android select the `Settings` button at the top left then tap `Advance`.
 
 ![](/assets/img/iOS_adv-settings.png)
 
-### Anmeldung
 
-* Geben Sie das Admin-Kennwort ein und klicken Sie auf `OK`, um sich anzumelden. Standardmäßig lautet das Kennwort `000000`. Wenn dieses Kennwort nicht akzeptiert wird setzen Sie das Gerät per [Reset-Schalter](reset.md#zurücksetzen-per-reset-schalter) zurück.
+### Log In as Admin
+
+* Enter the Admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](reset.md#hardreset).
 
 ![](/assets/img/EZCastII_Login.png)
 
-* Aus dem Menü oben links wählen Sie `Admin-Einstellungen`.
+* Select `Admin Settings` from the main menu:
 
 ![](/assets/img/ezcastpro.II.select.adminsettings.png)
 
-* Wählen den Punkt `Auf Standardeinstellungen zurücksetzen` aus.
+### Reset to Factory Default
 
-![](/assets/img/ezcastpro.II.Standardeinstellungen.zuruecksetzen.png)
+* Select the `Reset to Factory Default` option.
 
-* Zum Bestätigen wählen Sie `Ja`.
+![](/assets/img/ezcastpro.II.resetfactorydefaults.png)
+
+* To confirm click `Yes`.
 
 ![](/assets/img/Reset.png)
 
-## Zurücksetzen per Reset-Schalter 
+## Hard Reset via Reset-Switch {#hardreset}
 
-Wenn Ihnen die Zugangsdaten für die [Erweiterte Einstellungen](adv.settings.md) nicht bekannt sind, haben Sie die Möglichkeit mit dem Reset-Schalter die Standardeinstellungen zurückzusetzen:
+If you do not know the Admin password, you must perform a hard-reset using the reset switch found on the box:
 
-* Mit Hilfe eines kleinen "Stifts" halten Sie den Reset-Schalter ca. 10 Sekunden lang gedrückt. Der Reset-Schalter befindet sich an der Rückseite der Box oben dem USB-Anschluss.
+* With the power supply connected, press and hold the reset switch for about 10 seconds using a pin or paper clip. The reset switch is located on the side of the box next to the USB port.
 
-![Reset-Schalter ca. 10 Sekunden lang gedrückt halten](/assets/img/Press-Reset-Button_B10.png)    
+![Press and hold the reset switch for approx. 10 seconds](/assets/img/ProII-Press-Reset-Button.jpg)
 
-* Wenn die folgende Meldung erscheint, lassen Sie den Reset-Schalter los. 
+* When the following message appears release the reset switch.
 
-![](/assets/img/Reset_config_complete.jpg)
+![](/assets/img/Reset_config_complete.png)
 
-## Einstellungen nach dem Zurücksetzen {#recommendedsettings}
+## Recommended Settings after Device Reset {#recommendedsettings}
 
-Nach dem Zurücksetzen werden Sie bei der ersten Anmeldung auf der Funktion [Erweiterte Einstellungen](adv.settings.md) aufgefordert, das Admin-Kennwort zu ändern. Standardmäßig lautet es `000000`. Wir empfehlen, dass Sie anschließend die folgenden Einstellungen überprüfen:
+The first time you log in after resetting the device you will be asked to change the Admin password. The default password is `000000`. For optimal device performance we then recommend the following device settings:
 
-Firmware-Version: 1.8617.21
+Firmware Version: 1.9871.34
 
-**Gerätemanagement**
+**Device Management**
 
-* [Sprache](adv.settings.md#Sprache): `DEUTSCH`
-* [Android Audioübertragung](adv.settings.md#Android-Audio-Streaming): `EIN`
-* [AirView](adv.settings.md#AirView): `EIN`
-* [Timed Restart](adv.settings.md#timedrestart): `EIN`
+* [Language](adv.settings.md#Language): `English`
+* [Android audio streaming](adv.settings.md#android-audio-streaming): `ON`
+* [AirView](adv.settings.md#AirView): `ON`
+* [Timed Restart](adv.settings.md#timedrestart): `ON`
 
-**Netzwerkmanagement**
+**Network Management**
 
-* [WLAN-Modus](adv.settings.md#Wifi-Channel):  `Land = EUROPE`, `Kanal = Auto`, `Bandbreite = 20MHz`
+* [Wi-Fi Mode](adv.settings.md#wifi-channel): `Country = Europe`, `Channel = Auto`, `Bandwidth = 20MHz`
 
-**Admineinstellungen**
+**Admin Settings**
 
-* [Mein Bildschirm](adv.settings.md#Mein-Bildschirm): unsere [Landing Page](https://download.stueber.de/doc/de/ezcastpro/EZCastProV2_Landing PageDE.png) in der deutschen Sprache
-* [Host-Berechtigungen](adv.settings.md#Host-permissions):
-   * `Konferenzsteuerung = Ein`
-   * `Netzwerkmanagement = Aus`
-   * `Gerätemanagement = Aus`
-   * `Neustart = Ein`
+* [Host's Authority](adv.settings.md#hostauthority):
+    * `Conference Control = ON`
+    * `Network Management Control = OFF`
+    * `Device Management Control = OFF`
+    * `Reboot Control = ON`
+* [My Screen](adv.settings.md#myscreen): Our recommended [Landing Page](https://download.stueber.de/doc/en/ezcastpro/EZCastPro2_landingpage.png) in English language
+* [Central Management System](adv.settings.md#central-management-system) = `ON`
+
+
+

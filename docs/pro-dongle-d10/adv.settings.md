@@ -1,6 +1,6 @@
 # Advanced Settings
 
-The Advanced Settings allow you to update the firmware and adjust many settings of the EZCast Pro Dongle II conveniently and remotely. To access the Advanced Settings, make sure you have installed the [software or app](quickstart.md) and connected to your EZCast Pro II device.
+With Advanced Settings you can update the firmware and adjust all the settings of the EZCast Pro Dongle II conveniently and remotely. To access Advanced Settings, make sure you have installed the [software](quickstart.md#windows-and-macos) or [app](quickstart.md#android-and-ios) and connect to your EZCast Pro II device.
 
 Launch the `EZCastPro` software or app on your device.
 
@@ -14,7 +14,7 @@ On iOS/Android select the Settings button at the top left then tap `Advance`.
 
 ## Admin Login
 
-Enter the admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](#reset-per-switch).
+Enter the admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](reset.md#hardreset).
 
 ![](/assets/img/EZCastII_Login.png)
 
@@ -124,7 +124,7 @@ For video streaming there are three settings available:
 
 #### AirView {#AirView}
 
-Users can view a picture output of the presentation with a refresh rate based on the specified preference. **The minimum refresh rate is 5 seconds.** A comprehensive guide to using AirView can be found [here](ezcastproapp.md#airview.md).
+Users can view a picture output of the presentation with a refresh rate based on the specified preference. **The minimum refresh rate is 5 seconds.** A comprehensive guide to using AirView can be found [here](ezcastproapp.md#airview).
 
 ![](/assets/img/AirView.png)
 
@@ -161,13 +161,13 @@ Enable Android users to cast video and audio to the external display. This setti
 
 #### ChromeCast {#Chromecast}
 
-Direct casting via Chromecast for Android and Chrome browser. Please be advised that when casting via Chromecast the EZCast Pro II device must connected to the internet. A comprehensive guide to using Chromecast can be found [here](ezcastproapp.md#chromecast.md).
+Direct casting via Chromecast for Android and Chrome browser. Please be advised that when casting via Chromecast the EZCast Pro II device must connected to the internet. A comprehensive guide to using Chromecast can be found [here](chromecast.md).
 
 ![](/assets/img/Chromecast-support.png)
 
 #### Miracast {#Miracast}
 
-Direct casting via Miracast for Windows and Android devices with optional pin code security. A comprehensive guide to using Miracast can be found [here](ezcastproapp.md#miracast.md).
+Direct casting via Miracast for Windows and Android devices with optional pin code security. A comprehensive guide to using Miracast can be found [here](miracast.md).
 
 ![](/assets/img/Miracast.png)
 
@@ -355,7 +355,7 @@ Activate this option to manage the EZCast Pro device via the Central Management 
 
 ![](/assets/img/cms.png)
 
-#### Reset to Factory Default {#Reset}
+#### Reset to Factory Defaults {#reset}
 
 Use this option to reset the EZCast Pro device to factory settings. More information on this topic can be found [here](reset.md).
 

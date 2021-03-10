@@ -1,133 +1,124 @@
-# Firmware neu installieren
+# Reinstall Firmware
 
-Sie können den EZCast Pro Dongle II wiederherstellen, indem Sie die Firmware neu installieren. Es gibt mehrere Gründe dafür:
+You can restore EZCast Pro Dongle II by reinstalling the firmware. There are multiple reasons for doing this:
 
-* Der EZCast Pro Dongle II lässt sich nicht einschalten. Die Stromversorgung wurde bereits kontrolliert. In diesem Fall kann es an einem unterbrochenen [Aktualisierungs-Vorgang](firmware-upgrade.md) liegen.
+* EZCast Pro Dongle II does not power on and the power supply has already been checked. This could be due to an interrupted [firmware upgrade](firmware-upgrade.md).
 
-* Der EZCast Pro Dongle II läuft nicht stabil und ein [Reset](reset.md) hat nicht geholfen.
+* EZCast Pro Dongle II is running unstable. Performing a [device reset](reset.md) did not help.
 
-Sie haben die Wahl: Installieren Sie entweder einfach die neuste Firmware oder eine andere Firmware.
+There are two options: Install the latest firmware or select a specific firmware.
 
-!!! warning "Achtung"
+!!! warning "Warning"
     
-	Bei einer Neuinstallation der Firmware werden **alle** Einstellungen zurückgesetzt.
+	When you reinstall the firmware **all** existing settings will be lost.
 
-## Voraussetzung
+## Requirements
 
-* Sie benötigen einen Windows Computer, um die Firmware-Software auf dem EZCast Pro Dongle II einzuspielen.
+* A Windows computer to load the firmware software onto the EZCast Pro Dongle II.
 
-* Die Aktualisierung des Firmware-Upgrades muss mit dem mitgelieferten USB Type C Kabel unter Microsoft Windows vorgenommen werden.
+* The included USB Type C cable.
 
-![Das mitgelieferte USB Type C Kabel](/assets/img/USB-TypeeC-Cable.jpg)
+![Included USB Type C charger cable](/assets/img/USB-TypeC-Cable.png)
 
-## EZCast Pro Repair Tool installieren
+## Install EZCast Pro Repair Tool
 
-* Laden Sie das [EZCast Pro Dongle II (D10) Repair Tool](https://download.stueber.de/doc/de/ezcastpro/repair_tools/EZCastPro.D10.Repair.Tool.zip) herunter.
+* Download [EZCast Pro Dongle II (D10) Repair Tool](https://download.stueber.de/doc/de/ezcastpro/repair_tools/EZCastPro.D10.Repair.Tool.zip).
 
-* Extrahieren Sie die Datei **EZCastPro.D10.Repair.Tool.zip**.
+* Extract the **EZCastPro.D10.Repair.Tool.zip** file.
 
-![EZCastPro.D10.Repair.Tool.zip extrahieren](/assets/img/D10.Repair_Tool_Extract.png) 
+![Extract EZCastPro.D10.Repair.Tool.zip](/assets/img/D10.Repair_Tool_Extract.png) 
 
-* Installieren Sie die Treiber, indem Sie die Batchdatei `EZCastPro.D10.Repair.Tool\usb_driver\install.bat` als Administrator ausführen.
+* Install the driver by running the batch file `EZCastPro.D10.Repair.Tool\usb_driver\install.bat` as Administrator.
 
-![install.bat als Administrator ausführen](/assets/img/D10.install.bat.png)
+![Run install.bat as Administrator](/assets/img/D10.install.bat.png)
 
-* Wenn die folgende Sicherheitsmeldung erscheint, wählen Sie **„Installieren“**:
+* When the following security message appears select **„Install“**:
 
-![Wählen Sie Installieren](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.jpg)
+![Select Install](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.jpg)
 
+## Connect USB Type C cable
 
-## USB Type C Kabel anschließen
+* Connect the included USB Type C cable to the USB port of the dongle. The dongle remains powered off at this stage.
 
-!!! hint "Hinweis"
+* To put the EZCast Pro Dongle II in reinstall mode press and **hold** the reset button on the side of the dongle. Then connect the USB Type C cable to your Windows PC. After five seconds release the reset button.
 
-    Anfangs ist das USB Type C Kabel **nur** mit dem USB-Anschluss des Dongles angeschlossen. Der Dongle ist ausgeschaltet. Das andere Ende des Kabels schließen Sie **nachher** mit Ihrem PC an.
+![EZCast Pro Dongle II in reinstall mode](/assets/img/ProII-Press-Reset-Button.jpg)
 
-* Schließen Sie das mitgelieferte USB Type C Kabel mit dem USB-Anschluss des Dongles an. Der Dongle bleibt ausgeschaltet.
+If the driver is installed and the EZCast Pro Dongle II is properly connected, a **„Realtek generic USB Device“** driver will appear in Device Manager. If not, please check the driver installation, cable configuration and reinstall mode, as described in the previous step.
 
-* Um den EZCast Pro Dongle II in den Update-Modus zu setzen, drücken und **halten** Sie die Reset-Taste. Schließen Sie anschließend das USB Type C Kabel mit Ihrem Windows PC an. Nach fünf Sekunden lassen Sie die Reset-Taste los.
+![EZCastPro driver in Device Manager](/assets/img/EZCastPro_Driver.jpg)
 
-![EZCast Pro Dongle II in den Update-Modus setzen](/assets/img/ProII-Press-Reset-Button.jpg)
+## Install Latest Firmware
 
-Wenn der Treiber richtig installiert ist und der EZCast Pro Dongle II angeschlossen ist, sollte das Gerät **„Realtek generic USB Device“** im Geräte-Manager erscheinen. Wenn nicht, überprüfen Sie die Treiber-Installation, Kabel-Konfiguration, und den Update-Modus, wie im vorherigen Schritt beschrieben.
+* Launch the **EZCastUpdate.exe** file in the `EZCastPro.D10.Repair.Tool` directory.
 
-![EZCastPro Treiber im Geräte-Manager](/assets/img/EZCastPro_Driver.jpg)
+![Launch EZCastUpdate.exe](/assets/img/D10.Repair_Tool_Update.exe.png)
 
-## Neuste Firmware installieren
+The following window will appear. If the EZCast Pro Dongle II is in reinstall mode „EZCast device connected“ will display in the tool.
 
-* Im Ordner `EZCastPro.D10.Repair.Tool` führen Sie die Datei **EZCastUpdate.exe** aus.
+* Select `Download` in order to download the latest firmware.
 
-![EZCastUpdate.exe ausführen](/assets/img/D10.Repair_Tool_Update.exe.png)
+![Select the Download button](/assets/img/EZCastUpdate.DeviceConnected.jpg)
 
-Das folgende Fenster erscheint. Wenn der EZCast Pro Dongle II im Update-Modus ist, wird im Tool „EZCast device connected“ angezeigt.
+The latest firmware will download from the internet.
 
-* Wählen Sie `Download`, um die neuste Firmware herunterzuladen.
+!!! warning "Warning"
 
-![Die Schaltfläche Download wählen](/assets/img/EZCastUpdate.DeviceConnected.jpg)
+    You must not disconnect the power while the firmware is installing.
 
-Das Downloaden der Firmware wird durchgeführt.
+![EZCastPro Firmware is downloading](/assets/img/EZCastUpdate.Firmware.Downloading.jpg)
 
-!!! warning "Achtung"
+* To start the installation select `Upgrade`.
 
-    Sie dürfen den Strom während der Aktualisierung nicht unterbrechen.
+![Select Upgrade to start the installation](/assets/img/EZCastUpdate.Upgrade.jpg)
 
-![EZCastPro Firmware wird heruntergefahren](/assets/img/EZCastUpdate.Firmware.Downloading.jpg)
+The firmware is installed.
 
-* Um die Installation der Firmware zu starten, wählen Sie `Upgrade`.
+![The firmware is installed](/assets/img/EZCastUpdate.Firmware.Updating.jpg)
 
-![Wählen Sie Upgrade, um die Installation zu starten](/assets/img/EZCastUpdate.Upgrade.jpg)
+If the installation has been succesfully installed the following message will appear:
 
-Die Firmware wird installiert.
+![The installation was successful](/assets/img/EZCastUpdate_Upgrade.Success.jpg)
 
-![Die Firmware wird installiert](/assets/img/EZCastUpdate.Firmware.Updating.jpg)
+The EZCast Pro Dongle II is ready to use again.
 
-Wenn die Installation erfolgreich durchgeführt wurde, erscheint die folgende Meldung:
+## Install Specific Firmware
 
-![Die Installation war erfolgreich](/assets/img/EZCastUpdate_Upgrade.Success.jpg)
+To install a previous or a beta firmware download one of the following files:
 
-Der EZCast Pro Dongle II ist wieder einsatzbereit.
-
-## Andere Firmware installieren
-
-Um eine vorherige bzw. eine Betafirmware zu installieren, laden Sie eine der folgenden Dateien herunter:
-
-Firmware                       | Herunterladen
+Firmware                       | Download
 ------------------------- | ------------
-1.9871.38 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.38.gz)
-1.9871.34 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.34.gz)
-1.8617.21 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.8617.21.gz)
-1.7545.8 | [Herunterladen](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.7545.8.gz)
+1.9871.38 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.38.gz)
+1.9871.34 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.34.gz)
+1.8617.21 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.8617.21.gz)
+1.7545.8 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.7545.8.gz)
 
 
-* Im Ordner `EZCastPro.D10.Repair.Tool` führen Sie die Datei **Update_for_localfile.exe** aus.
+* Launch the **Update_for_localfile.exe** file in the `EZCastPro.D10.Repair.Tool` directory.
 
-![Update_for_localfile.exe ausführen](/assets/img/D10.localfile.exe.png)
+![Launch Update_for_localfile.exe](/assets/img/D10.localfile.exe.png)
 
-Das folgende Fenster erscheint. Wenn der EZCast Pro Dongle II im Update-Modus ist, wird im Tool „EZCast device connected“ angezeigt.
+The following window will appear. If the EZCast Pro Dongle II is correctly in reinstall mode **"Device connected"** will be displayed in the tool.
 
-* Mit Hilfe der Schaltfläche `Firmware` wählen Sie die gewünschte Firmwaredatei aus.
+* Select the desired firmware using the `Firmware` button.
 
-![Firmware auswählen](/assets/img/EZCastUpdate.SelectFirmware.jpg)
+![Select Firmware](/assets/img/EZCastUpdate.SelectFirmware.jpg)
 
-* Um die Installation der Firmware zu starten, wählen Sie `Upgrade`.
+* To start the firmware installation select `Upgrade`.
 
-![Wählen Sie Upgrade, um die Installation zu starten](/assets/img/EZCastUpdate.Upgrade.jpg)
+![Select Upgrade to start the installation](/assets/img/EZCastUpdate.Upgrade.jpg)
 
-Die Firmware wird installiert.
+The firmware installs.
 
-![Die Firmware wird installiert](/assets/img/EZCastUpdate.Firmware.localfile.Updating.jpg)
+![Firmware is installing](/assets/img/EZCastUpdate.Firmware.localfile.Updating.jpg)
 
-Wenn die Installation erfolgreich durchgeführt wurde, erscheint die folgende Meldung:
+After the installation has been succesfully installed the following message will appear:
 
-![Die Installation war erfolgreich](/assets/img/EZCastUpdate_localfile.Upgrade.Success.jpg)
+![The installation was successful](/assets/img/EZCastUpdate_localfile.Upgrade.Success.jpg)
 
-Der EZCast Pro Dongle II ist wieder einsatzbereit.
+The EZCast Pro Dongle II is ready to use again.
 
-!!! warning "Achtung"
+## Recommended Settings after Device Reset {#recommendedsettings}
 
-    Bei einer Neuinstallation der Firmware werden die fabrikseitigen Einstellungen des Geräts wiederhergestellt. Bitte prüfen Sie nach der Neuinstallation unsere [empfohlene Einstellungen](reset.md#recommendedsettings).
-
-## Einstellungen nach der Neuinstallation {#recommendedsettings}
-
-Bei einer Neuinstallation der Firmware werden alle Einstellungen zurückgesetzt. Unsere empfohlene Einstellungen finden Sie [hier](reset.md#recommendedsettings).
+During a firmware reinstall all default factory settings are restored. After completion please review our [recommended settings](reset.md#recommendedsettings).
 

@@ -40,7 +40,7 @@ You will find the Fixed Host function you will need to open [Admin Settings](#ad
 
 ### Admin Login
 
-Enter the admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](#reset-per-switch).
+Enter the admin password and click `OK` to log in. The default password is `000000`. If this password is not accepted please reset the device via the [reset switch](reset.md#hardreset).
 
 ![](/assets/img/EZCastII_Login.png)
 
