@@ -10,7 +10,7 @@ There are a few reasons you may wish to reset your EZCast Pro Dongle II to defau
 
 All settings will be reset except the [Device/SSID Name](adv.settings.md#devicessid-name), the [customized landing page](adv.settings.md#myscreen) image and the firmware version.
 
-## Soft-Reset via App/Software {#softreset}
+## Soft Reset via App/Software {#softreset}
 
 To reset the EZCast Pro Dongle II open the `EZCastPro` app or software on your enddevice. See our compehensive guide to installing the software for [Windows and macOS](quickstart.md#InstallSoftware) or the app for [Android and iOS](quickstart.md#InstallApp) should you need to install it.
 

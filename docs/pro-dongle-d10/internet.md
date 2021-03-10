@@ -40,12 +40,22 @@ On iOS/Android select the `Settings` button at the top left then tap `Advance`.
 
 ### Select Network Management
 
-* Select `Admin Settings` from the main menu:
+* Select `Network Management` from the main menu:
 
-![](/assets/img/ezcastpro.II.select.adminsettings.png)
+![](/assets/img/ezcastpro.II.select.networksettings.png)
+
+* Select `Connect to 5GHz Wi-Fi`:
+
+![](/assets/img/ezcastpro.II.select.connect5ghz.png)
+
+* Select your Wi-Fi 
 
 ![](/assets/img/EZCastPro.II.Wifi.png)
 
+!!! tip "Tip"
+    
+	Please note: EZCast Pro II can by default only be connect to a 5GHz Wi-Fi router. Use [Legacy mode](adv.settings.md#legacymode) if you wish to switch to 2.4 GHz Wi-Fi frequency.
+	
 Once the dongle is connected an `Infrastructure IP` assigned by your Wi-Fi network will be displayed at the bottom left of the screen, as illustrated below:
 
 ![](/assets/img/ProDongleII_connected_to_router.png)
