@@ -23,7 +23,7 @@ This chapter all the latest changes to the EZCast Pro Box II.
 **Fixes:**
 
 * ImWeb setting Improvement
-* Set [Android audio streaming](adv.settings.md#android-audio-streaming) `ON` as default
+* Set [Android Audio Streaming](adv.settings.md#android-audio-streaming) `ON` as default
 * Optimized energy consumption
 * Improved Web access security
 * Updated UI for "Music" and "Video" when using EZCast Pro App
