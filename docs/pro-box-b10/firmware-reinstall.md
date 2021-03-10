@@ -34,7 +34,7 @@ There are two options: Install the latest firmware or select a specific firmware
 
 * When the following security message appears select **„Install“**:
 
-![Select Install](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.jpg)
+![Select Install](/assets/img/EZCastPro_Upgrade_Tool_Driver.Install.png)
 
 ## Connect USB Type C cable
 
