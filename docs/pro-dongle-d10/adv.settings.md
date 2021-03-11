@@ -161,7 +161,7 @@ Enable Android users to cast video and audio to the external display. This setti
 
 #### ChromeCast {#Chromecast}
 
-Direct casting via Chromecast for Android and Chrome browser. Please be advised that when casting via Chromecast the EZCast Pro II device must connected to the internet. A comprehensive guide to using Chromecast can be found [here](chromecast.md).
+Direct casting via Chromecast for Android and Chrome browser. Please note that the EZCast Pro II device must be connected to the internet in order to cast via Chromecast. A comprehensive guide to using Chromecast can be found [here](chromecast.md).
 
 ![](/assets/img/Chromecast-support.png)
 
