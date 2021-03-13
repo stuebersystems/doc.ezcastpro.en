@@ -35,7 +35,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 
 *  Google Cast Split Screen: Supporting native [Chromecast](chromecast.md) mirroring up to 4 devices on Split Screen display
 *  [Timed Restart](adv.settings.md#timedrestart): To optimize system performance and stability, the receiver can be restarted automatically after 8 hours of inactivity
-*  Added [Castcode](adv.settings.md#Castcode) protection to AirView
+*  Added [Castcode](castcode.md) protection to AirView
 *  Added [Auto mode](adv.settings.md#AirPlayMode) to AirPlay function
 *  Support AES encryption for data transmission between web browser and EZCast Pro Dongle II
 

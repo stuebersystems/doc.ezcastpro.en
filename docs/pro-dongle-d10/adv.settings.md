@@ -146,6 +146,8 @@ The Castcode is displayed here:
 
 ![The Castcode](/assets/img/D10_Castcode.png)
 
+A comprehensive guide to using Castcode can be found [here](castcode.md).
+
 #### Maximum Connections {#maxconnections}
 
 This setting limits the number of direct connections the EZCast Pro II device will support via its own Wi-Fi hotspot. An additional 32 connections are supported via router. Please be aware that increasing the number of

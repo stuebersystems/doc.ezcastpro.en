@@ -94,6 +94,7 @@ nav:
     - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
     - Internet Access: pro-dongle-d10/internet.md
     - Advanced Features: 
+        - Castcode: pro-dongle-d10/castcode.md
         - Advanced Settings: pro-dongle-d10/adv.settings.md
         - Fixed Host: pro-dongle-d10/fixedhost.md
         - ProCast: pro-dongle-d10/procast.md
@@ -115,6 +116,7 @@ nav:
     - EZCastPro App/Software: pro-box-b10/ezcastproapp.md
     - Internet Access: pro-box-b10/internet.md
     - Advanced Features:
+        - Castcode: pro-box-b10/castcode.md
         - Advanced Settings: pro-box-b10/adv.settings.md
         - Fixed Host: pro-box-b10/fixedhost.md
         - ProCast: pro-box-b10/procast.md
