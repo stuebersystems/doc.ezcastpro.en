@@ -69,10 +69,6 @@ Enable the Castcode feature in Advanced Settings in the `EZCastPro` software for
 
 ![](/assets/img/EZCastII_Login.png)
 
-* During first login, you will need to change the admin password. Then you will have to log in once more with the new password.
-
-![](/assets/img/new_password.png)
-
 ### Enble Castcode
 
 * Select 'Device Management' from the menu:
@@ -91,10 +87,9 @@ Enable the Castcode feature in Advanced Settings in the `EZCastPro` software for
 
 ![](/assets/img/prostickII_menu.restart.png)
 
-* Then select the button 'Restart' again.
+* Then select the 'Restart' button again.
 
-![](/assets/img/restart.jpg)
+![](/assets/img/restart.png)
 
 
 
-Translated with www.DeepL.com/Translator (free version)
