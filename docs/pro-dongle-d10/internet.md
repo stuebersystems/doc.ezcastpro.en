@@ -42,7 +42,7 @@ On iOS/Android select the `Settings` button at the top left then tap `Advance`.
 
 * Select `Network Management` from the main menu:
 
-![](/assets/img/ezcastpro.II.select.networksettings.png)
+![](/assets/img/ezcastpro.II.select.networkmanagement.png)
 
 * Select `Connect to 5GHz Wi-Fi`:
 

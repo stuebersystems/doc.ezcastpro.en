@@ -134,9 +134,7 @@ How can I open `Conference Control`?
 
 The Conference Control function is located in **Advanced Settings** section. 
 
-![](/assets/img/adv.settingsapp.png)
-
-![](/assets/img/conferencecontrol6.png)
+![](/assets/img/ezcastpro.II.select.conferencecontrol.png)
 
 !!! tip "Tip"
 

@@ -22,7 +22,7 @@ Connect the receiver to the HDMI input of your display as shown below. To connec
 
 Connect the power supply using the USB cable and switch Pro Box on using the rear power button.
 
-![HDMI port + external power supply (Min. 5V/2A)](/assets/img/B10_anschließen.png)
+![HDMI port + external power supply (Min. 5V/2A)](/assets/img/B10_setup.png)
 
 ## Android and iOS
 
