@@ -1,6 +1,6 @@
 # EZCast Pro Series
 
-EZCast Pro is a wireless presentation system for sharing screen content to a public display or projector.
+EZCast Pro is a wireless presentation system primarily designed for classrooms and meeting rooms for casting screen content to a display or projector.
 
 EZCast Pro II series is available in two models:
 
