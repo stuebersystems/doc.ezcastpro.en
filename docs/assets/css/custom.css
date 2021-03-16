@@ -51,16 +51,33 @@ body, input {
 pre, code, kbd {
   font-family: 'Roboto Mono', SFMono-Regular, Consolas, Menlo, monospace;
 }
-/* Images */
-figure.center img {
-    display: block;
-    margin: 0 auto;
+/* Showcase */
+.md-showcase {
+    margin-top: 1rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    border: 1px solid;
+	border-color: var(--md-primary-fg-color--light)
 }
-figure.center figcaption
-{
-	font-size: smaller;
-	padding: 5px;
-    text-align: center;
+.md-showcase>img {
+    object-fit: cover;
+    max-width: 128px;
+    max-height: 128px;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.md-showcase>div>img {
+    object-fit: cover;
+	margin-top: 1rem;
+    max-height: 1rem;
+}
+.md-showcase:first-child {
+    margin-top: 0;
 }
 /* Footer */
 .md-footer-legal {
