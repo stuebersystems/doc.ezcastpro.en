@@ -26,15 +26,29 @@ Connect the power supply using the USB cable and switch Pro Box on using the rea
 
 ## Android and iOS
 
-With the app you can share your device content and plus it also contains many additional functions. With an iPad or iPhone, you can also transfer your screen content via [Apple AirPlay](airplay.md). For this you don't need to install an app. In addition you can mirror your Android device screen [Miracast](miracast.md) using your Android device's in-build `Screen mirroring` function.
+With EZCast Pro you can cast your content using one of the following methods:
 
-### Install EZCast Pro App {#InstallApp}
+* If you just want to quickly mirror your screen you can get started right away, as if the principle of Bring Your Own Device (BYOD), by using your device's built-in [screen mirror functionality](#Android_and_iOS_no_app). For this you don't need to install any app!
+
+* Using the free [App EZCastPro](#InstallApp) provides both the presenter and the other participants of a presentation, various advanced control options and broadcast functions that are otherwise not possible with the standing device screen mirroring.
+
+### a) No app. Simple Screen Mirroring {#Android_and_iOS_no_app}
+
+All common streaming protocols are supported. A comprehensive guide to your preferred protocol is available on the links below:
+
+* [AirPlay](airplay.md)
+* [Google Cast](chromecast.md)
+* [Miracast](miracast.md)
+
+### b) Advanced Functionality. EZCast Pro app 
+
+#### Install EZCastPro App {#InstallApp}
 
 Install the free **EZCast Pro** app from the [Apple App Store](https://apps.apple.com/app/ezcast-pro/id897830705) or [Google Play Store](https://play.google.com/store/apps/details?id=com.actionsmicro.ezcastpro).
 
 ![EZCast Pro in App Store](/assets/img/EZCastProAppStore.png)
 
-### Connect EZCast Pro Box II using EZCast Pro app
+#### Connect App to EZCast Pro
 
 If you have [set up](#ProBoxII_Setup) the EZCast Pro Box II correctly the following landing page will appear on the screen:
 
@@ -58,13 +72,27 @@ Now proceed as follows:
 
 ## Windows and macOS
 
-With the app you can share your device content plus it also contains many additional functions. With an Apple Mac you can also transfer your screen content via [Apple AirPlay](airplay.md). For this you don't to install any software. In additiona you can mirror your Windows computer screen via [Miracast](miracast.md) by running the `wireless display` function on your PC.
+With EZCast Pro you can cast your content using one of the following methods:
 
-### Install EZCast Pro Software {#InstallSoftware}
+* If you just want to quickly mirror your screen you can get started right away, as if the principle of Bring Your Own Device (BYOD), by using your device's built-in [screen mirror functionality](#Windows_and_macOS_no_software). For this you don't need to install any app!
+
+* Using the free [App EZCastPro](#InstallApp) provides both the presenter and the other participants of a presentation, various advanced control options and broadcast functions that are otherwise not possible with the standing device screen mirroring.
+
+### a) No Software. Simple Screen Mirroring {#Windows_and_macOS_no_software}
+
+All common streaming protocols are supported. A comprehensive guide to your preferred protocol is available on the links below:
+
+* [AirPlay](airplay.md)
+* [Google Cast](chromecast.md)
+* [Miracast](miracast.md)
+
+### b) Advanced Functionality. EZCast Pro App 
+
+#### Install EZCast Pro software {#InstallSoftware}
 
 Download and install the EZCast Pro software for [Windows](https://www.ezcast.com/app/ezcast/pro/windows) or [macOS](https://www.ezcast.com/app/ezcast/pro/macos).
 
-### Connect to EZCast Pro Box II using the software
+#### Connect software to EZCast Pro 
 
 If you have [set up](#ProBoxII_Setup) the EZCast Pro Box II correctly the following landing page will appear on the screen:
 

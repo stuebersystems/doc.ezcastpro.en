@@ -87,10 +87,15 @@ nav:
     - Quick Start Guide: pro-dongle-d10/quickstart.md
     - What's New?: pro-dongle-d10/whatsnew.md
     - Setup Guide: pro-dongle-d10/optimize.md
-    - User Guides by Streaming Protocol: 
+    - User Guides by<br>Streaming Protocol: 
         - "User Guide: AirPlay": pro-dongle-d10/airplay.md
         - "User Guide: Chromecast": pro-dongle-d10/chromecast.md
         - "User Guide: Miracast": pro-dongle-d10/miracast.md
+    - User Guides by<br>Operating System: 
+        - "User Guide: Windows": pro-dongle-d10/quickstart/#windows-and-macos
+        - "User Guide: macOS": pro-dongle-d10/quickstart/#windows-and-macos
+        - "User Guide: iOS": pro-dongle-d10/quickstart/#android-and-ios
+        - "User Guide: Android": pro-dongle-d10/quickstart/#android-and-ios        
     - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
     - Internet Access: pro-dongle-d10/internet.md
     - Advanced Features: 
@@ -109,10 +114,15 @@ nav:
     - Quick Start Guide: pro-box-b10/quickstart.md
     - What's New?: pro-box-b10/whatsnew.md
     - Setup Guide: pro-box-b10/optimize.md
-    - User Guides by Streaming Protocol: 
+    - User Guides by<br>Streaming Protocol: 
         - "User Guide: AirPlay": pro-box-b10/airplay.md
         - "User Guide: Chromecast": pro-box-b10/chromecast.md
         - "User Guide: Miracast": pro-box-b10/miracast.md
+    - User Guides by<br>Operating System: 
+        - "User Guide: Windows": pro-dongle-d10/quickstart/#windows-and-macos
+        - "User Guide: macOS": pro-dongle-d10/quickstart/#windows-and-macos
+        - "User Guide: iOS": pro-dongle-d10/quickstart/#android-and-ios
+        - "User Guide: Android": pro-dongle-d10/quickstart/#android-and-ios        
     - EZCastPro App/Software: pro-box-b10/ezcastproapp.md
     - Internet Access: pro-box-b10/internet.md
     - Advanced Features:
