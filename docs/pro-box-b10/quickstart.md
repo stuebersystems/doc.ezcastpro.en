@@ -42,13 +42,13 @@ All common streaming protocols are supported. A comprehensive guide to your pref
 
 ### b) Advanced Functionality. EZCast Pro app 
 
-#### Install EZCastPro App {#InstallApp}
+#### Install EZCastPro app {#InstallApp}
 
 Install the free **EZCast Pro** app from the [Apple App Store](https://apps.apple.com/app/ezcast-pro/id897830705) or [Google Play Store](https://play.google.com/store/apps/details?id=com.actionsmicro.ezcastpro).
 
 ![EZCast Pro in App Store](/assets/img/EZCastProAppStore.png)
 
-#### Connect App to EZCast Pro
+#### Connect app to EZCast Pro
 
 If you have [set up](#ProBoxII_Setup) the EZCast Pro Box II correctly the following landing page will appear on the screen:
 
