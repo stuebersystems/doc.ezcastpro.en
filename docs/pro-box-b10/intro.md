@@ -14,7 +14,7 @@ For a compact product comparison with the other model versions of the EZCast Pro
 
 | EZCast Pro Box II | |
 | :---- | :---- |
-| Wireless Range (Line of Sight) | Bis zu 30m |
+| Wireless Range (Line of Sight) | Up to 30m |
 | Power Supply | DC-in 5V 2A |
 | Power Consumption | 10 W / 10000 mW)
 | Output Power (5 Ghz) | 802.11a /54Mbps : 13 dBm ± 1.5 dB @ EVM ≤ -25dB |
