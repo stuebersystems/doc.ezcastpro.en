@@ -23,7 +23,7 @@ The Chromecast function with split screen support requires firmware version `1.8
 
 ## Enable Chromecast
 
-By default Chromecast is enabled on EZCast Pro II devices. However, should you need to reactivate the feature the option `Chromecast` can be found in [Advanced Settings](adv.settings.md#Chromecast):
+By default Chromecast is enabled on EZCast Pro II devices. However, should you need to reactivate this feature the option `Chromecast` can be found in [Advanced Settings](adv.settings.md#Chromecast):
 
 ![](/assets/img/Chromecast-support.png)
 
