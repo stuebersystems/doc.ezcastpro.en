@@ -7,6 +7,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
 ## EZCast Pro Box II Firmware - 1.9871.34
+2020.09.04
 
 **New Functions:**
 
@@ -23,6 +24,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 * Bugs fixed
 
 ## EZCast Pro Dongle II Firmware - 1.8617.21
+2020.06.05
 
 **Fixes:**
 
@@ -30,6 +32,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 *  Bug in [Timed Restart](adv.settings.md#timedrestart) resolved
 
 ## EZCast Pro Dongle II Firmware - 1.8617.18
+2020.05.27
 
 **New Functions:**
 
@@ -46,4 +49,17 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 *  Fixed Direct Link and Via Router connection issue
 *  During the initial installation, the following selection was added to optimize the Wi-Fi adapter settings:
    ![](/assets/img/wifi.land.selection.png)
+
+## EZCast Pro Stick II Firmware - 1.7545.7
+2020.02.14
+
+**Neue Funktionen:**
+
+* [Dynamic Wallpaper](dynamicwallpaper.md): Display a collection of pictures and/or videos on the screen after specified time of inactivity
+
+**Fixes:**
+
+* Improved Miracast stability
+* Typing error in the Advanced Settings function
+* Default Wi-Fi bandwith changed from 80MHz to 20MHz
 
