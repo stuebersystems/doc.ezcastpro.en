@@ -63,7 +63,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 *  During the initial installation, the following selection was added to optimize the Wi-Fi adapter settings:
    ![](/assets/img/wifi.land.selection.png)
 
-## EZCast Pro Stick II Firmware - 1.7545.7
+## EZCast Pro Dongle II Firmware - 1.7545.7
 2020.02.14
 
 **Neue Funktionen:**
