@@ -55,17 +55,22 @@ If you do not know the Admin password, you must perform a hard-reset using the r
 
 ![](/assets/img/Reset_config_complete.png)
 
+*  After the reset when you first log must select a Wi-Fi country and restart:
+
+   ![](/assets/img/wifi.land.selection.png)
+
 ## Recommended Settings after Device Reset {#recommendedsettings}
 
 The first time you log in after resetting the device you will be asked to change the Admin password. The default password is `000000`. For optimal device performance we then recommend the following device settings:
 
-Firmware Version: [1.9871.37](whatsnew.md#ezcast-pro-box-ii-firmware-1987137)
+Firmware Version: [1.12170.15](whatsnew.md#ezcast-pro-box-ii-firmware-11217015)
 
 **Device Management**
 
 * [Language](adv.settings.md#Language): `English`
 * [Android audio streaming](adv.settings.md#android-audio-streaming): `ON`
 * [AirView](adv.settings.md#AirView): `ON`
+* [Castcode](adv.settings.md#Castcode): `Random`
 * [Timed Restart](adv.settings.md#timedrestart): `ON`
 
 **Network Management**

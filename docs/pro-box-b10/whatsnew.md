@@ -6,6 +6,14 @@ This chapter all the latest changes to the EZCast Pro Box II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
+## EZCast Pro Box II Firmware - 1.12170.15
+2021.05.11
+
+* Support for connections to WPA3 routers
+* Enable Miracast to share content onto four split screen simultaneously
+* Fixed the Castcode exist time
+* Improve Airview performance
+* Improve the user experience for WiFi power adjustment
 
 ## EZCast Pro Box II Firmware - 1.9871.37
 2020.09.18
