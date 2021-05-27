@@ -12,7 +12,7 @@
 | EZCast Pro Dongle II includes the following items |   |
 | :----: | :----: |
 | ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents.D10.png)<br>EZCast Pro Dongle II | ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents_HDMI.Extension.png) <br>HDMI Extention Cable (0.2 m) |
-| ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents_USBC.png)<br>USB C Cable (0.8 m) | ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents.QSG.png)<br>Quick Start Guide |
+| ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents_USBC.png)<br>USB C Cable (1 m) | ![HDMI-Port + externes Netzteil (Min. 5V/1.5A)](/assets/img/Contents.QSG.png)<br>Quick Start Guide |
 
 
 ## Setting up EZCast Pro Dongle II {#ProDongleII_Setup}
