@@ -88,7 +88,7 @@ To install a previous or a beta firmware download one of the following files:
 
 Firmware                       | Download
 ------------------------- | ------------
-1.12170.15 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.12170.15.gz)
+1.12170.16 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.12170.16.gz)
 1.9871.37 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.37.gz)
 1.8617.21 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.8617.21.gz)
 1.7545.8 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.7545.8.gz)

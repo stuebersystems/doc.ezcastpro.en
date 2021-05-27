@@ -6,7 +6,7 @@ This chapter all the latest changes to the EZCast Pro Dongle II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
-## EZCast Pro Dongle II Firmware - 1.12170.15
+## EZCast Pro Dongle II Firmware - 1.12170.16
 2021.05.11
 
 * Support for connections to WPA3 routers
