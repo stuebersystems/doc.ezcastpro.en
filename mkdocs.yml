@@ -140,3 +140,5 @@ nav:
         - Reset Settings: pro-box-b10/reset.md
         - Reinstall Firmware: pro-box-b10/firmware-reinstall.md  
     - CMS: pro-box-b10/cms.md
+- CMS: 
+    - Introduction: cms.md    
