@@ -97,6 +97,7 @@ nav:
         - "User Guide: AirPlay": pro-dongle-d10/airplay.md
         - "User Guide: Chromecast": pro-dongle-d10/chromecast.md
         - "User Guide: Miracast": pro-dongle-d10/miracast.md
+    - CMS: pro-dongle-d10/cms.md     
     - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
     - Internet Access: pro-dongle-d10/internet.md
     - Advanced Features: 
@@ -109,7 +110,6 @@ nav:
     - Troubleshooting: 
         - Reset Settings: pro-dongle-d10/reset.md
         - Reinstall Firmware: pro-dongle-d10/firmware-reinstall.md
-    - CMS: pro-dongle-d10/cms.md 
 - Pro Box II: 
     - Introduction: pro-box-b10/intro.md
     - Quick Start Guide: pro-box-b10/quickstart.md
@@ -126,6 +126,7 @@ nav:
         - "User Guide: Chromecast": pro-box-b10/chromecast.md
         - "User Guide: Miracast": pro-box-b10/miracast.md
     - EZCastPro App/Software: pro-box-b10/ezcastproapp.md
+    - CMS: pro-box-b10/cms.md
     - Internet Access: pro-box-b10/internet.md
     - Advanced Features:
         - Advanced Settings: pro-box-b10/adv.settings.md
@@ -139,6 +140,5 @@ nav:
     - Troubleshooting: 
         - Reset Settings: pro-box-b10/reset.md
         - Reinstall Firmware: pro-box-b10/firmware-reinstall.md  
-    - CMS: pro-box-b10/cms.md
 - CMS: 
     - Introduction: cms.md    
