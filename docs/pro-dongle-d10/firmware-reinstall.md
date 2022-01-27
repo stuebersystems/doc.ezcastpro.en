@@ -88,7 +88,7 @@ To install a previous or a beta firmware download one of the following files:
 
 Firmware                       | Download
 ------------------------- | ------------
-1.9871.38 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.38.gz)
+1.12170.16 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.12170.16.gz)
 1.9871.34 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.9871.34.gz)
 1.8617.21 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.8617.21.gz)
 1.7545.8 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/D10/D10_1.7545.8.gz)

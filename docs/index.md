@@ -9,7 +9,7 @@ The EZCast Pro II series is available in two models:
 	<div>
 		<img src="assets/img/ezcastpro.dongle2.black.logo.png" alt="Logo: EZCast Pro Dongle II">
 		<p>The EZCast Pro Dongle II acts as a receiver during a wireless presentation and is connected to a display or projector via HDMI. The EZCast Pro Dongle II is powered by a USB port with at least 1.5 amps. The Dongle can then be integrated into your network via Wi-Fi enabling you to cast your screen and stream internet content.</p>
-		<p><a href="pro-stick-d10/intro">View EZCast Pro Dongle II</a></p>
+		<p><a href="pro-dongle-d10/intro">View EZCast Pro Dongle II</a></p>
 	</div>
 </div>
 <div class="md-showcase">

@@ -17,7 +17,7 @@ Due to a limitation of Miracast technology, only a single device can be streamed
   
 ## Enable Miracast on EZCast Pro
 
-By default Miracast is enabled on EZCast Pro II devices. However, should you need to reactivate the feature the option `Miracast` can be found in [Advanced Settings](adv.settings.md#Miracast):
+By default Miracast is enabled on EZCast Pro II devices. However, should you need to reactivate this feature the option `Miracast` can be found in [Advanced Settings](adv.settings.md#Miracast):
 
 ![](/assets/img/Miracast.png)
 

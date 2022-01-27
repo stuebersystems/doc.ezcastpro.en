@@ -17,7 +17,7 @@ EZCast Pro Dongle II allows up to four macOS and iOS devices to be mirrored at o
 
 ## Enable AirPlay
 
-By default AirPlay is enabled on EZCast Pro II devices. However, should you need to reactivate the feature the option `AirPlay` can be found in [Advanced Settings](adv.settings.md#AirPlayMode):
+By default AirPlay is enabled on EZCast Pro II devices. However, should you need to reactivate this feature the option `AirPlay` can be found in [Advanced Settings](adv.settings.md#AirPlayMode):
 ![](/assets/img/ezcastpro.II.EZAir_enable.png)
 
 ## AirPlay on iOS

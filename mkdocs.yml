@@ -102,53 +102,58 @@ nav:
     - Quick Start Guide: pro-dongle-d10/quickstart.md
     - What's New?: pro-dongle-d10/whatsnew.md
     - Setup Guide: pro-dongle-d10/optimize.md
+    - User Guides by<br>Operating System: 
+        - "User Guide: Android": pro-dongle-d10/quickstart/#android-and-ios 
+        - "User Guide: iOS": pro-dongle-d10/quickstart/#android-and-ios
+        - "User Guide: Linux": pro-dongle-d10/linux.md
+        - "User Guide: macOS": pro-dongle-d10/quickstart/#windows-and-macos
+        - "User Guide: Windows": pro-dongle-d10/quickstart/#windows-and-macos
     - User Guides by<br>Streaming Protocol: 
         - "User Guide: AirPlay": pro-dongle-d10/airplay.md
         - "User Guide: Chromecast": pro-dongle-d10/chromecast.md
         - "User Guide: Miracast": pro-dongle-d10/miracast.md
-    - User Guides by<br>Operating System: 
-        - "User Guide: Windows": pro-dongle-d10/quickstart/#windows-and-macos
-        - "User Guide: macOS": pro-dongle-d10/quickstart/#windows-and-macos
-        - "User Guide: iOS": pro-dongle-d10/quickstart/#android-and-ios
-        - "User Guide: Android": pro-dongle-d10/quickstart/#android-and-ios        
-    - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
-    - Internet Access: pro-dongle-d10/internet.md
     - Advanced Features: 
         - Castcode: pro-dongle-d10/castcode.md
         - Advanced Settings: pro-dongle-d10/adv.settings.md
         - Fixed Host: pro-dongle-d10/fixedhost.md
         - ProCast: pro-dongle-d10/procast.md
-        - Captive Portal: pro-dongle-d10/captiveportal.md
-    - Upgrade Firmware: pro-dongle-d10/firmware-upgrade.md
+        - Captive Portal: pro-dongle-d10/captiveportal.md    
+    - CMS: pro-dongle-d10/cms.md     
+    - EZCastPro App/Software: pro-dongle-d10/ezcastproapp.md
+    - Internet Access: pro-dongle-d10/internet.md
     - Troubleshooting: 
         - Reset Settings: pro-dongle-d10/reset.md
         - Reinstall Firmware: pro-dongle-d10/firmware-reinstall.md
-    - CMS: pro-dongle-d10/cms.md 
+    - Upgrade Firmware: pro-dongle-d10/firmware-upgrade.md    
 - Pro Box II: 
     - Introduction: pro-box-b10/intro.md
     - Quick Start Guide: pro-box-b10/quickstart.md
     - What's New?: pro-box-b10/whatsnew.md
     - Setup Guide: pro-box-b10/optimize.md
+    - User Guides by<br>Operating System: 
+        - "User Guide: Android": pro-box-b10/quickstart/#android-and-ios
+        - "User Guide: iOS": pro-box-b10/quickstart/#android-and-ios
+        - "User Guide: Linux": pro-box-b10/linux.md
+        - "User Guide: macOS": pro-box-b10/quickstart/#windows-and-macos
+        - "User Guide: Windows": pro-box-b10/quickstart/#windows-and-macos
     - User Guides by<br>Streaming Protocol: 
         - "User Guide: AirPlay": pro-box-b10/airplay.md
         - "User Guide: Chromecast": pro-box-b10/chromecast.md
         - "User Guide: Miracast": pro-box-b10/miracast.md
-    - User Guides by<br>Operating System: 
-        - "User Guide: Windows": pro-dongle-d10/quickstart/#windows-and-macos
-        - "User Guide: macOS": pro-dongle-d10/quickstart/#windows-and-macos
-        - "User Guide: iOS": pro-dongle-d10/quickstart/#android-and-ios
-        - "User Guide: Android": pro-dongle-d10/quickstart/#android-and-ios        
-    - EZCastPro App/Software: pro-box-b10/ezcastproapp.md
-    - Internet Access: pro-box-b10/internet.md
     - Advanced Features:
-        - Castcode: pro-box-b10/castcode.md
         - Advanced Settings: pro-box-b10/adv.settings.md
+        - Captive Portal: pro-box-b10/captiveportal.md
+        - Castcode: pro-box-b10/castcode.md
+        - Dynamic Wallpaper: pro-box-b10/dynamicwallpaper.md
         - Fixed Host: pro-box-b10/fixedhost.md
         - ProCast: pro-box-b10/procast.md
         - Touch Back: pro-box-b10/touchback.md
-        - Captive Portal: pro-box-b10/captiveportal.md
-    - Upgrade Firmware: pro-box-b10/firmware-upgrade.md  
+    - CMS: pro-box-b10/cms.md    
+    - EZCastPro App/Software: pro-box-b10/ezcastproapp.md  
+    - Internet Access: pro-box-b10/internet.md    
     - Troubleshooting: 
         - Reset Settings: pro-box-b10/reset.md
-        - Reinstall Firmware: pro-box-b10/firmware-reinstall.md  
-    - CMS: pro-box-b10/cms.md
+        - Reinstall Firmware: pro-box-b10/firmware-reinstall.md
+    - Upgrade Firmware: pro-box-b10/firmware-upgrade.md    
+- CMS: 
+    - Introduction: cms.md    

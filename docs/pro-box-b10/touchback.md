@@ -10,7 +10,7 @@ When switching to another participant the Touch Back functionality then is then 
 
 * The EZCast Pro [software](quickstart.md#installsoftware) for Windows and macOS.
 
-* Touch Back is only supported when mirroring at a time (not possible with split screen).
+* Touch Back is only supported when mirroring one screen at a time (not possible with split screen).
 
 ## Check Firmware Version
 

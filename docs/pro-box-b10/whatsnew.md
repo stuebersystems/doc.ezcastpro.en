@@ -6,14 +6,24 @@ This chapter all the latest changes to the EZCast Pro Box II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
+## EZCast Pro Box II Firmware - 1.12170.16
+2021.05.11
+
+* Support for connections to WPA3 routers
+* Enable Miracast to share content onto four split screen simultaneously
+* Fixed the Castcode exist time
+* Improve Airview performance
+* Improve the user experience for WiFi power adjustment
 
 ## EZCast Pro Box II Firmware - 1.9871.37
+2020.09.18
 
 **Fixes:**
 
 * System bugs fixed
 
 ## EZCast Pro Box II Firmware - 1.9871.34
+2020.09.04
 
 **New Functions:**
 
@@ -30,6 +40,7 @@ This chapter all the latest changes to the EZCast Pro Box II.
 * Bugs fixed
 
 ## EZCast Pro Box II Firmware - 1.8617.21
+2020.06.05
 
 **Fixes:**
 
@@ -37,6 +48,7 @@ This chapter all the latest changes to the EZCast Pro Box II.
 *  Bug in [Timed Restart](adv.settings.md#timedrestart) resolved
 
 ## EZCast Pro Box II Firmware - 1.8617.18
+2020.05.27
 
 **New Functions:**
 
@@ -53,3 +65,10 @@ This chapter all the latest changes to the EZCast Pro Box II.
 *  Fixed Direct Link and Via Router connection issue
 *  During the initial installation, the following selection was added to optimize the Wi-Fi adapter settings:
    ![](/assets/img/wifi.land.selection.png)
+   
+## EZCast Pro Box II Firmware - 1.7367.0
+2020.02.14
+
+**New Functions:**
+
+* [Dynamic Wallpaper](dynamicwallpaper.md): Display a collection of pictures and/or videos on the screen after specified time of inactivity
