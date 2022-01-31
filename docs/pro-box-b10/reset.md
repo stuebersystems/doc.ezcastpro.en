@@ -63,7 +63,7 @@ If you do not know the Admin password, you must perform a hard-reset using the r
 
 The first time you log in after resetting the device you will be asked to change the Admin password. The default password is `000000`. For optimal device performance we then recommend the following device settings:
 
-Firmware Version: [1.12170.16](whatsnew.md#ezcast-pro-box-ii-firmware-11217016)
+Firmware Version: [1.13781.17](whatsnew.md#ezcast-pro-box-ii-firmware-11378117)
 
 **Device Management**
 
