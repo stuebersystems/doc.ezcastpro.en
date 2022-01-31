@@ -82,16 +82,18 @@ If the installation has been succesfully installed the following message will ap
 
 The EZCast Pro Dongle II is ready to use again.
 
-## Install Specific Firmware
+## Install Specific Firmware {#B10_install_other_fw}
 
 To install a previous or a beta firmware download one of the following files:
 
 Firmware                       | Download
 ------------------------- | ------------
+1.13781.18 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.13781.18.gz)
+1.13781.17 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.13781.17.gz)
+1.13781.15 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.13781.15.gz)
+1.12170.19 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.12170.19.gz)
 1.12170.16 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.12170.16.gz)
 1.9871.37 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.9871.37.gz)
-1.8617.21 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.8617.21.gz)
-1.7545.8 | [Download](https://download.stueber.de/doc/de/ezcastpro/firmwares/B10/B10_1.7545.8.gz)
 
 
 * Launch the **Update_for_localfile.exe** file in the `EZCastPro.B10.Repair.Tool` directory.

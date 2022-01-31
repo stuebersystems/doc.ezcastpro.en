@@ -8,7 +8,7 @@ To benefit from the latest features of EZCast Pro Box II, you can quickly and co
 
 If your EZCast Pro device is not connected to the internet [click here](internet.md) and follow the user guide.
 
-## How to Upgrade Firmware
+## Upgrade Firmware via EZCast Pro Software
 
 ### Open Advanced Settings
 
@@ -54,6 +54,61 @@ The EZCast Pro device restarts automatically and returns to the landing page. Th
 
 ![](/assets/img/ProIIDongle_firmware.png)
 
+## Update Firmware via internet with CMS
+
+The CMS ([Central Management System](cms.md)) allows you to install the latest firmware either via the Internet or a local download of the firmware on multiple EZCast Pro II or QuattroPod devices.
+
+* When a new firmware is available for the receiver or the transmitter a ![](/assets/img/CMS-firmware.available.png) icon will appear next to the device:
+
+![](/assets/img/CMS-firmware.OTA.select.devices.png)
+
+* Select the desired devices, then click on the `Remote` button -> and select the option `Device firmware upgrade`.
+
+![Die Firmware wird installiert](/assets/img/CMS-firmware.install.latest.firmware.png)
+
+* Under the `OTA` tab, simply click on the `Apply` button to perform the update:
+
+![Die Firmware wird installiert](/assets/img/CMS-firmware.upgrade.OTA.png)
+
+The new firmware is downloaded and installed automatically. 
+
+* While the receiver is being updated the following message will appear:
+
+![Firmware-Version aktualisieren](/assets/img/ProIIStick_Firmware_installing.png)
+
+!!! warning "Warning"
+    
+	Do not interrupt the power supply during the update.
+
+## Update Firmware without internet with CMS
+
+The CMS ([Central Management System](cms.md)) also allows you to install the latest firmware on devices that are not connected to the internet. Please use the links below to download the firmware for your devices in advance:
+
+Device Type               | Download      |
+------------------------- | ------------------------- | 
+Pro Dongle II | [Download](../pro-dongle-d10/firmware-reinstall.md#D10_install_other_fw)
+Pro Box II | [Download](firmware-reinstall.md#B10_install_other_fw)
+
+* Select the desired devices, then click on the `Remote` button -> and select the option `Device firmware upgrade`.
+
+![](/assets/img/CMS-firmware.install.latest.firmware.png)
+
+* Under the `FILE` tab, browse to the firmware file you downloaded earlier:
+
+![](/assets/img/CMS-firmware.upgrade2.png)
+
+* When ready, click on the `Apply` button to perform the update:
+
+![](/assets/img/CMS-firmware.upgrade.FILE.apply.png)
+
+* While the receiver is being updated the following message will appear:
+
+![](/assets/img/ProIIStick_Firmware_installing.png)
+
+!!! warning "Warning"
+    
+	Do not interrupt the power supply during the update.
+	
 ## Recommended Settings After Firmware Update {#recommendedsettings}
 
 After updating the firmware please review all available Advanced Settings. See recommended settings [here](reset.md#recommendedsettings).
