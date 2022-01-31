@@ -6,14 +6,52 @@ This chapter all the latest changes to the EZCast Pro Box II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
+## EZCast Pro Box II Firmware - 1.13781.17
+2021.11.30
+
+**Fixes:**
+
+* Fixed GoogleCast audio cracking/popping issue
+
+## EZCast Pro Box II Firmware - 1.13781.15
+2021.11.01
+
+**New Functions:**
+
+* Support Open VPN
+* Support AirPlay PIN code for iOS MDM config file
+
+**Fixes:**
+
+* Fixed Wi-Fi OSD icon error
+* Bugs fixed
+
+## EZCast Pro Box II Firmware - 1.12170.19
+2021.07.01
+
+**Fixes:**
+
+* Modified Miracast AGO behavior, allowing user to set SSID under AGO mode
+* Modified Miracast AGO behavior, setting PSK is prohibited under AGO mode
+* Improved stability for GoogleCast mirroring
+
+## EZCast Pro Box II Firmware - 1.12170.17
+2021.06.22
+
+**Fixes:**
+
+* Improved Wi-Fi stability
+
+
 ## EZCast Pro Box II Firmware - 1.12170.16
 2021.05.11
 
 * Support for connections to WPA3 routers
 * Enable Miracast to share content onto four split screen simultaneously
-* Fixed the Castcode exist time
+* Fixed Castcode issue
 * Improve Airview performance
 * Improve the user experience for WiFi power adjustment
+* Minor bugs fixed
 
 ## EZCast Pro Box II Firmware - 1.9871.37
 2020.09.18
