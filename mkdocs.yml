@@ -10,7 +10,7 @@ repo_name: 'On GitHub'
 repo_url: 'https://github.com/stuebersystems/doc.ezcastpro.en'
 
 # Copyright
-copyright: '&copy; 2021 STÜBER SYSTEMS GmbH'
+copyright: '&copy; 2022 STÜBER SYSTEMS GmbH'
 
 # Configuration
 theme:
@@ -71,8 +71,23 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde  
 
 # Page tree
 nav:
