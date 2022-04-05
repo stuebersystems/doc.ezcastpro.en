@@ -1,5 +1,8 @@
 pool:
-  vmImage: 'windows-2019'
+  vmImage: 'windows-2022'
+    
+variables:
+- group: 'github-config'
     
 steps:
 - task: UsePythonVersion@0
@@ -12,7 +15,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      pip install mkdocs mkdocs-material mkdocs-minify-plugin --disable-pip-version-check
+      pip install mkdocs mkdocs-material mkdocs-minify-plugin fancyboxmd --disable-pip-version-check
     failOnStderr: false
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: PowerShell@2
@@ -37,3 +40,15 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+- task: PowerShell@2
+  displayName: 'Push to GitHub'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      git remote add github https://$(PAT)@github.com/stuebersystems/doc.ezcastpro.en.git
+      git fetch github
+      git checkout .
+      git push github HEAD:main
+      git push --tags github HEAD:main
+    pwsh: true
