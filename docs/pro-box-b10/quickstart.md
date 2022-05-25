@@ -90,7 +90,7 @@ All common streaming protocols are supported. A comprehensive guide to your pref
 
 #### Install EZCast Pro software {#InstallSoftware}
 
-Download and install the EZCast Pro software for [Windows](https://www.ezcast.com/app/ezcast/pro/windows) or [macOS](https://www.ezcast.com/app/ezcast/pro/macos).
+Download and install the EZCast Pro software for [Windows](https://ezcast-pro.com/download/ezcastpro-app/windows/) or [macOS](https://ezcast-pro.com/download/ezcastpro-app/macos/).
 
 #### Connect software to EZCast Pro 
 
