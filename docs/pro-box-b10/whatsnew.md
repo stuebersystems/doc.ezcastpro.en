@@ -15,7 +15,7 @@ This chapter all the latest changes to the EZCast Pro Box II.
 * Bugs fixed
 
 ## EZCast Pro Box II Firmware - 1.13781.60
-2022.15.03
+2022.03.15
 
 **Fixes:**
 
