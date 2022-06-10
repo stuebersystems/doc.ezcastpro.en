@@ -6,6 +6,29 @@ This chapter all the latest changes to the EZCast Pro Box II.
 
     Keep up-to-date by signing up to our [Newsletter](https://www.stueber.de/newsletter.php) and learn [here](firmware-upgrade.md) how to update the firmware on your device.
 
+## EZCast Pro Box II Firmware - 1.13781.65
+2022.06.06
+
+**Fixes:**
+
+* Improve system stability
+* Bugs fixed
+
+## EZCast Pro Box II Firmware - 1.13781.60
+2022.15.03
+
+**Fixes:**
+
+* Improve Touchback function stability
+
+
+## EZCast Pro Box II Firmware - 1.13781.41
+2022.04.03
+
+**Fixes:**
+
+* Supports Miracast UIBC under AGO mode (Keyboard, Mouse, Touch Panel)
+
 ## EZCast Pro Box II Firmware - 1.13781.17
 2021.11.30
 
