@@ -1,3 +1,11 @@
+/* Custom colors */
+:root > * {
+  --md-primary-fg-color:             #FF4D00;
+  --md-primary-fg-color--light:      #ff813b;
+  --md-primary-fg-color--dark:       #c30100;
+  --md-accent-fg-color:              #17a2b8; 
+  --md-accent-fg-color--transparent: rgba(23, 162, 184, 0.1)
+}
 /* roboto-300 - latin */
 @font-face {
   font-family: 'Roboto';
@@ -92,11 +100,4 @@ pre, code, kbd {
 	.md-footer-legal {
 		float: right;
 	}
-}
-:root {
-  --md-primary-fg-color:             #FF4D00;
-  --md-primary-fg-color--light:      #ff813b;
-  --md-primary-fg-color--dark:       #c30100;
-  --md-accent-fg-color:              #17a2b8; 
-  --md-accent-fg-color--transparent: rgba(23, 162, 184, 0.1)
 }
