@@ -4,54 +4,33 @@ Please refer to the tables below for EZCast Pro port information.
 
 ## Ports by Service
 
-### AirPlay
-
-Port | Type                  
-:---- | :----------------------
-7000 | TCP          
-7001 | TCP         
-7100 | TCP         
-5353 | UDP         
-
-### EZCast Pro App / ProCast
-
-| Port |
-| :---- |
-| 2425 |
-| 63630 |
-
-### ChromeCast
-
-| Port | Type
-| :---- | :---
-| 80 | TCP
-| 443 | TCP
-| 8008 | TCP
-| 8009 | TCP
-| 53 | UDP
-| 1900 | UDP
-| 5353 | UDP
-
-### Web Server for the web interface
-
-| Port |
-| :---- |
-| 80 |
-| 8080 |
-
-### Over-The-Air (OTA) Firmware
-
-| Port |
-| :---- |
-| 80 |
-| 443 |
-
-### DLNA
-
-| Port | Type
-| :---- | :---
-| 1900 | UDP
-| 2869 | TCP
+Port | Type | Tx / Rx | Description                
+| :---- | :--- | :---- | :---
+53 | TCP  | Rx | DNS server    
+53 | UDP  | Rx | ChromeCast
+67 | UDP  | Tx | DHCP server
+68 | UDP  | Rx | DHCP client   
+80 | TCP  | TxRx | AirPlay, ChromeCast, Web server, FW OTA
+443 | TCP  | TxRx | AirPlay, ChromeCast, FW OTA
+554 | TCP  | TxRx | RTSP AirPlay
+1900 | UDP  | Rx | ChromeCast / DLNA   
+2425 | TCP  | TxRx | TX <-> RX
+2869 | TCP  | TxRx | DLNA    
+3689 | TCP  | TxRx | AirPlay    
+5297 | TCP  | TxRx | Bonjour    
+5289 | TCP/UDP  | TxRx | Bonjour
+5353 | UDP  | TxRx | Bonjour, AirPlay, ChromeCast 
+7000 | TCP  | Rx | AirPlay   
+7001 | TCP  | Rx | AirPlay   
+7100 | TCP  | Rx | AirPlay  
+7236 | TCP  | Rx | RTSP Miracast   
+8008 | TCP  | Rx | ChromeCast  
+8009 | TCP  | Rx | ChromeCast   
+8080 | TCP  | Rx | Web server    
+25030 | TCP  | TxRx | Miracast HDCP
+49159 | UDP  | TxRx | Bonjour, AirPlay
+41963 | UDP  | TxRx | Bonjour, AirPlay
+63630 | TCP  | TxRx | TX <-> RX  
 
 
 ## How to query ports used by EZCast Pro
