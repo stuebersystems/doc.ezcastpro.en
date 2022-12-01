@@ -4,8 +4,8 @@ Please refer to the tables below for EZCast Pro port information.
 
 ## Ports by Service
 
-Port | Type | Tx / Rx | Description                
-| :---- | :--- | :---- | :---
+Port | Type | Tx / Rx | Description |             
+| :---- | :--- | :---- | :--- |
 53 | TCP  | Rx | DNS server    
 53 | UDP  | Rx | ChromeCast
 67 | UDP  | Tx | DHCP server
