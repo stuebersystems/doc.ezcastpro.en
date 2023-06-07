@@ -22,8 +22,14 @@ theme:
     search_index_only: true
     language: en
     features:
-        - navigation.tabs
+        - navigation.footer
         - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
     palette:
         scheme: default
     favicon: assets/img/favicon.ico
