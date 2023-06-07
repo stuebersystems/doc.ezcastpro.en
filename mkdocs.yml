@@ -10,12 +10,12 @@ repo_name: 'On GitHub'
 repo_url: 'https://github.com/stuebersystems/doc.ezcastpro.en'
 
 # Copyright
-copyright: '&copy; 2022 STÜBER SYSTEMS GmbH'
+copyright:
+  '&copy; 2023 STÜBER SYSTEMS GmbH : <a href="https://legal.stueber.co.uk/imprint.php">Imprint</a> : <a href="https://legal.stueber.co.uk/privacy.php">Privacy</a>'
 
 # Configuration
 theme:
     name: material
-    custom_dir: overrides
     static_templates:
         - 404.html
     include_search_page: false
@@ -29,14 +29,6 @@ theme:
     favicon: assets/img/favicon.ico
     logo: assets/img/logo.svg
     font: false
-
-# Legal links
-extra:
-    legal:
-        - label: Imprint
-          link: https://www.stueber.co.uk/imprint.php
-        - label: Privacy
-          link: https://legal.stueber.co.uk/privacy.php
 
 # Customization
 extra_css:
